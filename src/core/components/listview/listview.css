@@ -1,0 +1,77 @@
+/***************************    START: Header  ***********************************************/
+.my-custom-table {
+    border: 1px solid rgba(0, 0, 0, .12);
+}
+
+.my-custom-table .rdt_TableHeadRow {
+    min-height: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow below */
+}
+/***************************    END: Header  ***********************************************/
+
+/***************************    START: Select Row Check Box column ***********************************************/
+.my-custom-table
+.rdt_TableHead .rdt_TableCol:first-child,
+.rdt_TableBody .rdt_TableCell:first-child {
+  flex: 0 0 30px !important;
+  min-width: 30px;
+}
+/***************************    END: Select Row Check Box column ***********************************************/
+
+/***************************    START:  Freeze Check Box(Row Select) column **************************************************/
+
+/* Head cell first column */
+.rdt_TableHeadRow .rdt_TableCol:first-child {
+    position: sticky;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+  }
+  
+  /* Body cell first column */
+  .rdt_TableRow .rdt_TableCell:first-child {
+    position: sticky;
+    left: 0;
+    background: #fff;
+    z-index: 1;
+  }
+/***************************    END:  Freeze Check Box(Row Select) column **************************************************/
+
+/***************************    START:  Alternate row background color **************************************************/
+/* Even rows */
+.rdt_TableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Odd rows */
+.rdt_TableRow:nth-child(odd) {
+  background-color: #ffffff;
+}
+/***************************    END:  Alternate row background color **************************************************/
+
+/***************************    START:  Scrollbar Customized **************************************************/
+.my-custom-table {
+  scrollbar-width: none;
+}
+
+/* Show scrollbar when hovered */
+.my-custom-table:hover {
+  scrollbar-width: thin;
+}
+/***************************    END:  Scrollbar Customized **************************************************/
+
+/*******************  ListViewSearchBox starts from here *************************************/
+
+.listview-search-box-input-evt:focus {
+  outline: none;
+}
+.listview-search-box-select-evt {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.listview-search-box-select-evt:focus {
+  outline: none;
+}
+  /*******************  ListViewSearchBox ends from here*************************************/
+  

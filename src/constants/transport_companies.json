@@ -1,0 +1,6345 @@
+[
+  {
+    "id": "TC001",
+    "companyName": "TransportCo 1 Pvt. Ltd.",
+    "address": {
+      "street": "10 Main Road",
+      "city": "Pune",
+      "state": "Telangana",
+      "zip": "832057",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8816318421",
+      "email": "contact1@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 28,
+      "vans": 65,
+      "drivers": 90
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ48DQ8500",
+        "type": "Trailer",
+        "capacityInTons": 12,
+        "status": "Active",
+        "driverName": "Driver_1_1"
+      },
+      {
+        "registrationNumber": "RJ54ZH4653",
+        "type": "Crane",
+        "capacityInTons": 12,
+        "status": "Maintenance",
+        "driverName": "Driver_1_1"
+      }
+    ],
+    "rating": 4.7,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC001-C1",
+        "companyName": "TransportCo 1 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9828906712",
+          "email": "branch1@transportco1pvt.ltd..in"
+        },
+        "address": {
+          "street": "46 Sub Road",
+          "city": "Surat",
+          "state": "Gujarat",
+          "zip": "863006",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 23,
+          "vans": 9,
+          "drivers": 12
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH39SZ2613",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 22,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC001_2"
+          },
+          {
+            "registrationNumber": "DL21IQ5956",
+            "type": "Crane",
+            "capacityInTons": 6,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC001_3"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC001-C2",
+        "companyName": "TransportCo 1 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7475577818",
+          "email": "branch2@transportco1pvt.ltd..in"
+        },
+        "address": {
+          "street": "29 Sub Road",
+          "city": "Bengaluru",
+          "state": "Telangana",
+          "zip": "668392",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 22,
+          "vans": 7,
+          "drivers": 9
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ70TE8607",
+            "type": "Trailer",
+            "capacityInTons": 13,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC001_4"
+          },
+          {
+            "registrationNumber": "KA29LR8233",
+            "type": "Truck",
+            "capacityInTons": 16,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC001_1"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC001-C3",
+        "companyName": "TransportCo 1 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-9078026992",
+          "email": "branch3@transportco1pvt.ltd..in"
+        },
+        "address": {
+          "street": "43 Sub Road",
+          "city": "Ahmedabad",
+          "state": "West Bengal",
+          "zip": "906606",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 16,
+          "vans": 15,
+          "drivers": 17
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ94RT9560",
+            "type": "Heavy Truck",
+            "capacityInTons": 3,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC001_4"
+          },
+          {
+            "registrationNumber": "MH87ZZ3198",
+            "type": "Heavy Truck",
+            "capacityInTons": 8,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC001_4"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC002",
+    "companyName": "TransportCo 2 Pvt. Ltd.",
+    "address": {
+      "street": "78 Main Road",
+      "city": "Jaipur",
+      "state": "Delhi",
+      "zip": "521954",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9336126288",
+      "email": "contact2@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 85,
+      "vans": 36,
+      "drivers": 144
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN96GZ3098",
+        "type": "Crane",
+        "capacityInTons": 19,
+        "status": "Inactive",
+        "driverName": "Driver_2_2"
+      },
+      {
+        "registrationNumber": "TN92QB6506",
+        "type": "Trailer",
+        "capacityInTons": 20,
+        "status": "Active",
+        "driverName": "Driver_2_1"
+      }
+    ],
+    "rating": 4.0,
+    "active": true
+  },
+  {
+    "id": "TC003",
+    "companyName": "TransportCo 3 Pvt. Ltd.",
+    "address": {
+      "street": "70 Main Road",
+      "city": "Bengaluru",
+      "state": "Telangana",
+      "zip": "133870",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9851803676",
+      "email": "contact3@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 99,
+      "vans": 61,
+      "drivers": 76
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB16VX4000",
+        "type": "Truck",
+        "capacityInTons": 24,
+        "status": "Active",
+        "driverName": "Driver_3_1"
+      },
+      {
+        "registrationNumber": "GJ50MJ1943",
+        "type": "Van",
+        "capacityInTons": 3,
+        "status": "Inactive",
+        "driverName": "Driver_3_0"
+      }
+    ],
+    "rating": 4.3,
+    "active": true
+  },
+  {
+    "id": "TC004",
+    "companyName": "TransportCo 4 Pvt. Ltd.",
+    "address": {
+      "street": "74 Main Road",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "535241",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9481718233",
+      "email": "contact4@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 54,
+      "vans": 77,
+      "drivers": 103
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL61QA5809",
+        "type": "Trailer",
+        "capacityInTons": 8,
+        "status": "Active",
+        "driverName": "Driver_4_3"
+      },
+      {
+        "registrationNumber": "WB17QS3169",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_4_2"
+      }
+    ],
+    "rating": 3.5,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC004-C1",
+        "companyName": "TransportCo 4 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8847673579",
+          "email": "branch1@transportco4pvt.ltd..in"
+        },
+        "address": {
+          "street": "23 Sub Road",
+          "city": "Jaipur",
+          "state": "Karnataka",
+          "zip": "916217",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 6,
+          "vans": 12,
+          "drivers": 7
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN81DI2888",
+            "type": "Crane",
+            "capacityInTons": 11,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC004_2"
+          },
+          {
+            "registrationNumber": "GJ42BV8957",
+            "type": "Truck",
+            "capacityInTons": 23,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC004_0"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC005",
+    "companyName": "TransportCo 5 Pvt. Ltd.",
+    "address": {
+      "street": "9 Main Road",
+      "city": "Jaipur",
+      "state": "Telangana",
+      "zip": "458891",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9507453569",
+      "email": "contact5@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 33,
+      "vans": 44,
+      "drivers": 117
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA74JG1153",
+        "type": "Van",
+        "capacityInTons": 15,
+        "status": "Maintenance",
+        "driverName": "Driver_5_2"
+      },
+      {
+        "registrationNumber": "DL59YW3016",
+        "type": "Truck",
+        "capacityInTons": 23,
+        "status": "Active",
+        "driverName": "Driver_5_3"
+      }
+    ],
+    "rating": 3.5,
+    "active": false
+  },
+  {
+    "id": "TC006",
+    "companyName": "TransportCo 6 Pvt. Ltd.",
+    "address": {
+      "street": "86 Main Road",
+      "city": "Hyderabad",
+      "state": "West Bengal",
+      "zip": "468508",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9834332786",
+      "email": "contact6@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 48,
+      "vans": 11,
+      "drivers": 123
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ12FZ4880",
+        "type": "Crane",
+        "capacityInTons": 19,
+        "status": "Inactive",
+        "driverName": "Driver_6_2"
+      },
+      {
+        "registrationNumber": "GJ13HW4262",
+        "type": "Truck",
+        "capacityInTons": 24,
+        "status": "Active",
+        "driverName": "Driver_6_0"
+      }
+    ],
+    "rating": 3.6,
+    "active": false
+  },
+  {
+    "id": "TC007",
+    "companyName": "TransportCo 7 Pvt. Ltd.",
+    "address": {
+      "street": "80 Main Road",
+      "city": "Kolkata",
+      "state": "Tamil Nadu",
+      "zip": "751976",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8410526512",
+      "email": "contact7@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 143,
+      "vans": 25,
+      "drivers": 148
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH63EM7704",
+        "type": "Crane",
+        "capacityInTons": 4,
+        "status": "Active",
+        "driverName": "Driver_7_3"
+      },
+      {
+        "registrationNumber": "KA34IS7147",
+        "type": "Van",
+        "capacityInTons": 18,
+        "status": "Inactive",
+        "driverName": "Driver_7_3"
+      }
+    ],
+    "rating": 4.7,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC007-C1",
+        "companyName": "TransportCo 7 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7536517938",
+          "email": "branch1@transportco7pvt.ltd..in"
+        },
+        "address": {
+          "street": "24 Sub Road",
+          "city": "Ahmedabad",
+          "state": "Tamil Nadu",
+          "zip": "730264",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 12,
+          "vans": 12,
+          "drivers": 23
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA31NJ3398",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 13,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC007_3"
+          },
+          {
+            "registrationNumber": "KA65ZZ4713",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 14,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC007_2"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC008",
+    "companyName": "TransportCo 8 Pvt. Ltd.",
+    "address": {
+      "street": "35 Main Road",
+      "city": "Surat",
+      "state": "Karnataka",
+      "zip": "348402",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9421105010",
+      "email": "contact8@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 102,
+      "vans": 13,
+      "drivers": 135
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL31DP2213",
+        "type": "Crane",
+        "capacityInTons": 19,
+        "status": "Inactive",
+        "driverName": "Driver_8_4"
+      },
+      {
+        "registrationNumber": "DL28RT5229",
+        "type": "Heavy Truck",
+        "capacityInTons": 6,
+        "status": "Inactive",
+        "driverName": "Driver_8_1"
+      }
+    ],
+    "rating": 3.8,
+    "active": false
+  },
+  {
+    "id": "TC009",
+    "companyName": "TransportCo 9 Pvt. Ltd.",
+    "address": {
+      "street": "20 Main Road",
+      "city": "Bengaluru",
+      "state": "West Bengal",
+      "zip": "103707",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9135748100",
+      "email": "contact9@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 120,
+      "vans": 68,
+      "drivers": 144
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ33OX5469",
+        "type": "Heavy Truck",
+        "capacityInTons": 22,
+        "status": "Active",
+        "driverName": "Driver_9_0"
+      },
+      {
+        "registrationNumber": "DL14LS7341",
+        "type": "Truck",
+        "capacityInTons": 3,
+        "status": "Maintenance",
+        "driverName": "Driver_9_1"
+      }
+    ],
+    "rating": 3.5,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC009-C1",
+        "companyName": "TransportCo 9 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7835921391",
+          "email": "branch1@transportco9pvt.ltd..in"
+        },
+        "address": {
+          "street": "14 Sub Road",
+          "city": "Bengaluru",
+          "state": "Delhi",
+          "zip": "547992",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 24,
+          "vans": 20,
+          "drivers": 14
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB66HG4833",
+            "type": "Truck",
+            "capacityInTons": 17,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC009_1"
+          },
+          {
+            "registrationNumber": "MH93WB2736",
+            "type": "Truck",
+            "capacityInTons": 3,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC009_1"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC010",
+    "companyName": "TransportCo 10 Pvt. Ltd.",
+    "address": {
+      "street": "51 Main Road",
+      "city": "Ahmedabad",
+      "state": "Delhi",
+      "zip": "777609",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7617106710",
+      "email": "contact10@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 94,
+      "vans": 27,
+      "drivers": 150
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA60ZK2399",
+        "type": "Van",
+        "capacityInTons": 16,
+        "status": "Active",
+        "driverName": "Driver_10_4"
+      },
+      {
+        "registrationNumber": "RJ54WT8153",
+        "type": "Trailer",
+        "capacityInTons": 17,
+        "status": "Active",
+        "driverName": "Driver_10_0"
+      }
+    ],
+    "rating": 4.5,
+    "active": false
+  },
+  {
+    "id": "TC011",
+    "companyName": "TransportCo 11 Pvt. Ltd.",
+    "address": {
+      "street": "42 Main Road",
+      "city": "Delhi",
+      "state": "Telangana",
+      "zip": "770080",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9976092795",
+      "email": "contact11@transportco.in"
+    },
+    "services": [
+      "Air Cargo",
+      "Priority Shipping"
+    ],
+    "fleet": {
+      "trucks": 124,
+      "vans": 74,
+      "drivers": 152
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH20FJ7607",
+        "type": "Van",
+        "capacityInTons": 3,
+        "status": "Active",
+        "driverName": "Driver_11_0"
+      },
+      {
+        "registrationNumber": "RJ19MF5008",
+        "type": "Van",
+        "capacityInTons": 8,
+        "status": "Maintenance",
+        "driverName": "Driver_11_2"
+      }
+    ],
+    "rating": 4.5,
+    "active": true
+  },
+  {
+    "id": "TC012",
+    "companyName": "TransportCo 12 Pvt. Ltd.",
+    "address": {
+      "street": "66 Main Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "601226",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9146071635",
+      "email": "contact12@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 50,
+      "vans": 53,
+      "drivers": 150
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL62WC7916",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 13,
+        "status": "Maintenance",
+        "driverName": "Driver_12_2"
+      },
+      {
+        "registrationNumber": "MH22RA8583",
+        "type": "Heavy Truck",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_12_3"
+      }
+    ],
+    "rating": 4.0,
+    "active": true
+  },
+  {
+    "id": "TC013",
+    "companyName": "TransportCo 13 Pvt. Ltd.",
+    "address": {
+      "street": "18 Main Road",
+      "city": "Hyderabad",
+      "state": "Karnataka",
+      "zip": "480492",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8708982035",
+      "email": "contact13@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 118,
+      "vans": 59,
+      "drivers": 60
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN71CY1119",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 8,
+        "status": "Active",
+        "driverName": "Driver_13_0"
+      },
+      {
+        "registrationNumber": "GJ32LE6915",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 19,
+        "status": "Maintenance",
+        "driverName": "Driver_13_4"
+      }
+    ],
+    "rating": 4.3,
+    "active": true
+  },
+  {
+    "id": "TC014",
+    "companyName": "TransportCo 14 Pvt. Ltd.",
+    "address": {
+      "street": "9 Main Road",
+      "city": "Bengaluru",
+      "state": "Rajasthan",
+      "zip": "240573",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8259410987",
+      "email": "contact14@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 110,
+      "vans": 36,
+      "drivers": 141
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA41EM8737",
+        "type": "Heavy Truck",
+        "capacityInTons": 20,
+        "status": "Maintenance",
+        "driverName": "Driver_14_2"
+      },
+      {
+        "registrationNumber": "MH30JT6754",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_14_2"
+      }
+    ],
+    "rating": 4.6,
+    "active": true
+  },
+  {
+    "id": "TC015",
+    "companyName": "TransportCo 15 Pvt. Ltd.",
+    "address": {
+      "street": "100 Main Road",
+      "city": "Bengaluru",
+      "state": "West Bengal",
+      "zip": "536708",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9998335659",
+      "email": "contact15@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 145,
+      "vans": 76,
+      "drivers": 145
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL94ZY7128",
+        "type": "Trailer",
+        "capacityInTons": 24,
+        "status": "Maintenance",
+        "driverName": "Driver_15_2"
+      },
+      {
+        "registrationNumber": "TN43TG5551",
+        "type": "Van",
+        "capacityInTons": 12,
+        "status": "Active",
+        "driverName": "Driver_15_2"
+      }
+    ],
+    "rating": 4.4,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC015-C1",
+        "companyName": "TransportCo 15 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9997694550",
+          "email": "branch1@transportco15pvt.ltd..in"
+        },
+        "address": {
+          "street": "12 Sub Road",
+          "city": "Kolkata",
+          "state": "Rajasthan",
+          "zip": "417657",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 21,
+          "vans": 11,
+          "drivers": 10
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "DL84WM1776",
+            "type": "Crane",
+            "capacityInTons": 10,
+            "status": "Active",
+            "driverName": "ChildDriver_TC015_4"
+          },
+          {
+            "registrationNumber": "GJ28GF2149",
+            "type": "Heavy Truck",
+            "capacityInTons": 18,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC015_1"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC015-C2",
+        "companyName": "TransportCo 15 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-9982000746",
+          "email": "branch2@transportco15pvt.ltd..in"
+        },
+        "address": {
+          "street": "43 Sub Road",
+          "city": "Delhi",
+          "state": "Karnataka",
+          "zip": "425113",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 11,
+          "vans": 3,
+          "drivers": 18
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB94MM5229",
+            "type": "Heavy Truck",
+            "capacityInTons": 5,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC015_2"
+          },
+          {
+            "registrationNumber": "WB92OW5430",
+            "type": "Truck",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC015_0"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC015-C3",
+        "companyName": "TransportCo 15 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-8241106342",
+          "email": "branch3@transportco15pvt.ltd..in"
+        },
+        "address": {
+          "street": "14 Sub Road",
+          "city": "Delhi",
+          "state": "Tamil Nadu",
+          "zip": "918493",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 12,
+          "vans": 14,
+          "drivers": 16
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ27OS4680",
+            "type": "Trailer",
+            "capacityInTons": 2,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC015_0"
+          },
+          {
+            "registrationNumber": "GJ92HH4791",
+            "type": "Trailer",
+            "capacityInTons": 7,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC015_0"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC016",
+    "companyName": "TransportCo 16 Pvt. Ltd.",
+    "address": {
+      "street": "13 Main Road",
+      "city": "Kolkata",
+      "state": "Karnataka",
+      "zip": "354467",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8676025997",
+      "email": "contact16@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 147,
+      "vans": 19,
+      "drivers": 103
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ20UJ6953",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 4,
+        "status": "Maintenance",
+        "driverName": "Driver_16_3"
+      },
+      {
+        "registrationNumber": "KA47ZN7790",
+        "type": "Heavy Truck",
+        "capacityInTons": 10,
+        "status": "Inactive",
+        "driverName": "Driver_16_1"
+      }
+    ],
+    "rating": 4.0,
+    "active": false
+  },
+  {
+    "id": "TC017",
+    "companyName": "TransportCo 17 Pvt. Ltd.",
+    "address": {
+      "street": "58 Main Road",
+      "city": "Pune",
+      "state": "Telangana",
+      "zip": "883277",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7073429783",
+      "email": "contact17@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 67,
+      "vans": 47,
+      "drivers": 77
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ90MQ7476",
+        "type": "Crane",
+        "capacityInTons": 18,
+        "status": "Active",
+        "driverName": "Driver_17_3"
+      },
+      {
+        "registrationNumber": "WB67KH4301",
+        "type": "Trailer",
+        "capacityInTons": 3,
+        "status": "Active",
+        "driverName": "Driver_17_0"
+      }
+    ],
+    "rating": 4.0,
+    "active": false
+  },
+  {
+    "id": "TC018",
+    "companyName": "TransportCo 18 Pvt. Ltd.",
+    "address": {
+      "street": "61 Main Road",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zip": "655813",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7782022356",
+      "email": "contact18@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 92,
+      "vans": 60,
+      "drivers": 122
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB16AY1529",
+        "type": "Trailer",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_18_1"
+      },
+      {
+        "registrationNumber": "KA40WK5506",
+        "type": "Heavy Truck",
+        "capacityInTons": 10,
+        "status": "Active",
+        "driverName": "Driver_18_1"
+      }
+    ],
+    "rating": 4.1,
+    "active": false
+  },
+  {
+    "id": "TC019",
+    "companyName": "TransportCo 19 Pvt. Ltd.",
+    "address": {
+      "street": "96 Main Road",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "745746",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7886202446",
+      "email": "contact19@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 144,
+      "vans": 18,
+      "drivers": 98
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL16JW2690",
+        "type": "Truck",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_19_1"
+      },
+      {
+        "registrationNumber": "TN80QB8107",
+        "type": "Trailer",
+        "capacityInTons": 6,
+        "status": "Active",
+        "driverName": "Driver_19_1"
+      }
+    ],
+    "rating": 3.7,
+    "active": true
+  },
+  {
+    "id": "TC020",
+    "companyName": "TransportCo 20 Pvt. Ltd.",
+    "address": {
+      "street": "14 Main Road",
+      "city": "Kolkata",
+      "state": "Delhi",
+      "zip": "116183",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8225161586",
+      "email": "contact20@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 93,
+      "vans": 67,
+      "drivers": 109
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN26CR1518",
+        "type": "Crane",
+        "capacityInTons": 21,
+        "status": "Maintenance",
+        "driverName": "Driver_20_0"
+      },
+      {
+        "registrationNumber": "KA16UX9177",
+        "type": "Crane",
+        "capacityInTons": 11,
+        "status": "Active",
+        "driverName": "Driver_20_3"
+      }
+    ],
+    "rating": 4.9,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC020-C1",
+        "companyName": "TransportCo 20 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8909819665",
+          "email": "branch1@transportco20pvt.ltd..in"
+        },
+        "address": {
+          "street": "18 Sub Road",
+          "city": "Mumbai",
+          "state": "Gujarat",
+          "zip": "345298",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 6,
+          "vans": 19,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH77JK7386",
+            "type": "Truck",
+            "capacityInTons": 14,
+            "status": "Active",
+            "driverName": "ChildDriver_TC020_2"
+          },
+          {
+            "registrationNumber": "WB53BS6092",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 23,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC020_2"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC020-C2",
+        "companyName": "TransportCo 20 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7663930961",
+          "email": "branch2@transportco20pvt.ltd..in"
+        },
+        "address": {
+          "street": "29 Sub Road",
+          "city": "Surat",
+          "state": "Delhi",
+          "zip": "323851",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 15,
+          "vans": 20,
+          "drivers": 13
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ50NM1820",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 12,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC020_3"
+          },
+          {
+            "registrationNumber": "MH41KE3074",
+            "type": "Van",
+            "capacityInTons": 15,
+            "status": "Active",
+            "driverName": "ChildDriver_TC020_3"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC020-C3",
+        "companyName": "TransportCo 20 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-8230235368",
+          "email": "branch3@transportco20pvt.ltd..in"
+        },
+        "address": {
+          "street": "40 Sub Road",
+          "city": "Chennai",
+          "state": "Telangana",
+          "zip": "469797",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 11,
+          "vans": 6,
+          "drivers": 16
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN78RG2863",
+            "type": "Trailer",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC020_1"
+          },
+          {
+            "registrationNumber": "GJ16AT4205",
+            "type": "Van",
+            "capacityInTons": 23,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC020_1"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC021",
+    "companyName": "TransportCo 21 Pvt. Ltd.",
+    "address": {
+      "street": "55 Main Road",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "zip": "200593",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7780441490",
+      "email": "contact21@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 60,
+      "vans": 49,
+      "drivers": 148
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH72UK6534",
+        "type": "Crane",
+        "capacityInTons": 24,
+        "status": "Maintenance",
+        "driverName": "Driver_21_0"
+      },
+      {
+        "registrationNumber": "GJ60QF7320",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 3,
+        "status": "Maintenance",
+        "driverName": "Driver_21_0"
+      }
+    ],
+    "rating": 4.6,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC021-C1",
+        "companyName": "TransportCo 21 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7444496920",
+          "email": "branch1@transportco21pvt.ltd..in"
+        },
+        "address": {
+          "street": "48 Sub Road",
+          "city": "Delhi",
+          "state": "Delhi",
+          "zip": "460200",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 23,
+          "vans": 5,
+          "drivers": 22
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ19WJ7220",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 16,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC021_4"
+          },
+          {
+            "registrationNumber": "RJ23IH3218",
+            "type": "Crane",
+            "capacityInTons": 18,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC021_4"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC021-C2",
+        "companyName": "TransportCo 21 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-8362534400",
+          "email": "branch2@transportco21pvt.ltd..in"
+        },
+        "address": {
+          "street": "40 Sub Road",
+          "city": "Bengaluru",
+          "state": "Rajasthan",
+          "zip": "651930",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 12,
+          "vans": 3,
+          "drivers": 22
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN49NO3463",
+            "type": "Truck",
+            "capacityInTons": 16,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC021_1"
+          },
+          {
+            "registrationNumber": "RJ28AP4757",
+            "type": "Crane",
+            "capacityInTons": 13,
+            "status": "Active",
+            "driverName": "ChildDriver_TC021_2"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC022",
+    "companyName": "TransportCo 22 Pvt. Ltd.",
+    "address": {
+      "street": "53 Main Road",
+      "city": "Mumbai",
+      "state": "Rajasthan",
+      "zip": "723706",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9070846529",
+      "email": "contact22@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 84,
+      "vans": 62,
+      "drivers": 177
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB53QM1435",
+        "type": "Heavy Truck",
+        "capacityInTons": 17,
+        "status": "Maintenance",
+        "driverName": "Driver_22_3"
+      },
+      {
+        "registrationNumber": "MH86EE6117",
+        "type": "Crane",
+        "capacityInTons": 10,
+        "status": "Maintenance",
+        "driverName": "Driver_22_4"
+      }
+    ],
+    "rating": 4.2,
+    "active": true
+  },
+  {
+    "id": "TC023",
+    "companyName": "TransportCo 23 Pvt. Ltd.",
+    "address": {
+      "street": "99 Main Road",
+      "city": "Hyderabad",
+      "state": "Gujarat",
+      "zip": "102248",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7803842554",
+      "email": "contact23@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 50,
+      "vans": 19,
+      "drivers": 168
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH41AY7593",
+        "type": "Heavy Truck",
+        "capacityInTons": 10,
+        "status": "Maintenance",
+        "driverName": "Driver_23_0"
+      },
+      {
+        "registrationNumber": "TN13UG8022",
+        "type": "Truck",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_23_4"
+      }
+    ],
+    "rating": 3.6,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC023-C1",
+        "companyName": "TransportCo 23 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7427680413",
+          "email": "branch1@transportco23pvt.ltd..in"
+        },
+        "address": {
+          "street": "47 Sub Road",
+          "city": "Hyderabad",
+          "state": "Maharashtra",
+          "zip": "754401",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 17,
+          "vans": 19,
+          "drivers": 17
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB85XO1915",
+            "type": "Truck",
+            "capacityInTons": 19,
+            "status": "Active",
+            "driverName": "ChildDriver_TC023_4"
+          },
+          {
+            "registrationNumber": "GJ83HY4660",
+            "type": "Heavy Truck",
+            "capacityInTons": 10,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC023_2"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC024",
+    "companyName": "TransportCo 24 Pvt. Ltd.",
+    "address": {
+      "street": "1 Main Road",
+      "city": "Ahmedabad",
+      "state": "West Bengal",
+      "zip": "411981",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9611229383",
+      "email": "contact24@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 128,
+      "vans": 16,
+      "drivers": 117
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN77PC4302",
+        "type": "Truck",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_24_4"
+      },
+      {
+        "registrationNumber": "GJ13OW8888",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Active",
+        "driverName": "Driver_24_0"
+      }
+    ],
+    "rating": 3.9,
+    "active": false
+  },
+  {
+    "id": "TC025",
+    "companyName": "TransportCo 25 Pvt. Ltd.",
+    "address": {
+      "street": "50 Main Road",
+      "city": "Delhi",
+      "state": "Telangana",
+      "zip": "291890",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9349737108",
+      "email": "contact25@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 126,
+      "vans": 39,
+      "drivers": 149
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ19IM9388",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 10,
+        "status": "Active",
+        "driverName": "Driver_25_3"
+      },
+      {
+        "registrationNumber": "WB47EP7914",
+        "type": "Crane",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_25_3"
+      }
+    ],
+    "rating": 3.7,
+    "active": false
+  },
+  {
+    "id": "TC026",
+    "companyName": "TransportCo 26 Pvt. Ltd.",
+    "address": {
+      "street": "97 Main Road",
+      "city": "Chennai",
+      "state": "Maharashtra",
+      "zip": "402222",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7800887068",
+      "email": "contact26@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 41,
+      "vans": 52,
+      "drivers": 166
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ36VP9125",
+        "type": "Heavy Truck",
+        "capacityInTons": 3,
+        "status": "Maintenance",
+        "driverName": "Driver_26_3"
+      },
+      {
+        "registrationNumber": "MH46RZ3624",
+        "type": "Van",
+        "capacityInTons": 4,
+        "status": "Maintenance",
+        "driverName": "Driver_26_0"
+      }
+    ],
+    "rating": 3.7,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC026-C1",
+        "companyName": "TransportCo 26 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7801447208",
+          "email": "branch1@transportco26pvt.ltd..in"
+        },
+        "address": {
+          "street": "40 Sub Road",
+          "city": "Chennai",
+          "state": "Gujarat",
+          "zip": "949840",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 25,
+          "vans": 4,
+          "drivers": 11
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN80AK9675",
+            "type": "Crane",
+            "capacityInTons": 6,
+            "status": "Active",
+            "driverName": "ChildDriver_TC026_1"
+          },
+          {
+            "registrationNumber": "KA12RA3247",
+            "type": "Trailer",
+            "capacityInTons": 16,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC026_4"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC026-C2",
+        "companyName": "TransportCo 26 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7370428656",
+          "email": "branch2@transportco26pvt.ltd..in"
+        },
+        "address": {
+          "street": "22 Sub Road",
+          "city": "Bengaluru",
+          "state": "Maharashtra",
+          "zip": "295156",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 6,
+          "vans": 6,
+          "drivers": 16
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH89OC3996",
+            "type": "Van",
+            "capacityInTons": 17,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC026_4"
+          },
+          {
+            "registrationNumber": "MH62NX1894",
+            "type": "Trailer",
+            "capacityInTons": 10,
+            "status": "Active",
+            "driverName": "ChildDriver_TC026_2"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC027",
+    "companyName": "TransportCo 27 Pvt. Ltd.",
+    "address": {
+      "street": "57 Main Road",
+      "city": "Surat",
+      "state": "Karnataka",
+      "zip": "620972",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9079246969",
+      "email": "contact27@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 147,
+      "vans": 43,
+      "drivers": 172
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ84EB1549",
+        "type": "Van",
+        "capacityInTons": 6,
+        "status": "Inactive",
+        "driverName": "Driver_27_1"
+      },
+      {
+        "registrationNumber": "GJ32MB4883",
+        "type": "Van",
+        "capacityInTons": 12,
+        "status": "Inactive",
+        "driverName": "Driver_27_4"
+      }
+    ],
+    "rating": 4.5,
+    "active": true
+  },
+  {
+    "id": "TC028",
+    "companyName": "TransportCo 28 Pvt. Ltd.",
+    "address": {
+      "street": "91 Main Road",
+      "city": "Pune",
+      "state": "Gujarat",
+      "zip": "484580",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8968985170",
+      "email": "contact28@transportco.in"
+    },
+    "services": [
+      "Cold Chain Logistics",
+      "Freight"
+    ],
+    "fleet": {
+      "trucks": 119,
+      "vans": 17,
+      "drivers": 85
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB83WC1044",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_28_0"
+      },
+      {
+        "registrationNumber": "RJ86VB9702",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Active",
+        "driverName": "Driver_28_3"
+      }
+    ],
+    "rating": 4.5,
+    "active": true
+  },
+  {
+    "id": "TC029",
+    "companyName": "TransportCo 29 Pvt. Ltd.",
+    "address": {
+      "street": "90 Main Road",
+      "city": "Jaipur",
+      "state": "Maharashtra",
+      "zip": "404002",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7644714815",
+      "email": "contact29@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 142,
+      "vans": 20,
+      "drivers": 59
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB44HF9718",
+        "type": "Van",
+        "capacityInTons": 25,
+        "status": "Active",
+        "driverName": "Driver_29_1"
+      },
+      {
+        "registrationNumber": "WB91PO7625",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 15,
+        "status": "Inactive",
+        "driverName": "Driver_29_0"
+      }
+    ],
+    "rating": 3.7,
+    "active": true
+  },
+  {
+    "id": "TC030",
+    "companyName": "TransportCo 30 Pvt. Ltd.",
+    "address": {
+      "street": "31 Main Road",
+      "city": "Ahmedabad",
+      "state": "Maharashtra",
+      "zip": "623546",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9696196078",
+      "email": "contact30@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 146,
+      "vans": 77,
+      "drivers": 189
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ52WJ7338",
+        "type": "Heavy Truck",
+        "capacityInTons": 10,
+        "status": "Inactive",
+        "driverName": "Driver_30_2"
+      },
+      {
+        "registrationNumber": "RJ22NJ5552",
+        "type": "Trailer",
+        "capacityInTons": 7,
+        "status": "Maintenance",
+        "driverName": "Driver_30_1"
+      }
+    ],
+    "rating": 4.7,
+    "active": true
+  },
+  {
+    "id": "TC031",
+    "companyName": "TransportCo 31 Pvt. Ltd.",
+    "address": {
+      "street": "89 Main Road",
+      "city": "Hyderabad",
+      "state": "Karnataka",
+      "zip": "451345",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8095683459",
+      "email": "contact31@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 84,
+      "vans": 12,
+      "drivers": 66
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB14TK5947",
+        "type": "Trailer",
+        "capacityInTons": 19,
+        "status": "Inactive",
+        "driverName": "Driver_31_2"
+      },
+      {
+        "registrationNumber": "RJ35UM4470",
+        "type": "Trailer",
+        "capacityInTons": 13,
+        "status": "Inactive",
+        "driverName": "Driver_31_1"
+      }
+    ],
+    "rating": 4.6,
+    "active": true
+  },
+  {
+    "id": "TC032",
+    "companyName": "TransportCo 32 Pvt. Ltd.",
+    "address": {
+      "street": "31 Main Road",
+      "city": "Surat",
+      "state": "Telangana",
+      "zip": "812586",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8761725476",
+      "email": "contact32@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 100,
+      "vans": 18,
+      "drivers": 62
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ45TX2236",
+        "type": "Heavy Truck",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_32_1"
+      },
+      {
+        "registrationNumber": "DL44VF5617",
+        "type": "Crane",
+        "capacityInTons": 18,
+        "status": "Active",
+        "driverName": "Driver_32_4"
+      }
+    ],
+    "rating": 5.0,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC032-C1",
+        "companyName": "TransportCo 32 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7841781554",
+          "email": "branch1@transportco32pvt.ltd..in"
+        },
+        "address": {
+          "street": "27 Sub Road",
+          "city": "Kolkata",
+          "state": "Tamil Nadu",
+          "zip": "821501",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 21,
+          "vans": 14,
+          "drivers": 9
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN51QP3390",
+            "type": "Truck",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC032_3"
+          },
+          {
+            "registrationNumber": "MH92VS4188",
+            "type": "Crane",
+            "capacityInTons": 18,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC032_4"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC032-C2",
+        "companyName": "TransportCo 32 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7429574798",
+          "email": "branch2@transportco32pvt.ltd..in"
+        },
+        "address": {
+          "street": "40 Sub Road",
+          "city": "Kolkata",
+          "state": "Tamil Nadu",
+          "zip": "420838",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 26,
+          "vans": 18,
+          "drivers": 6
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "DL29UC6206",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 23,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC032_3"
+          },
+          {
+            "registrationNumber": "GJ76AS6480",
+            "type": "Van",
+            "capacityInTons": 13,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC032_2"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC032-C3",
+        "companyName": "TransportCo 32 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-7862075667",
+          "email": "branch3@transportco32pvt.ltd..in"
+        },
+        "address": {
+          "street": "29 Sub Road",
+          "city": "Pune",
+          "state": "Telangana",
+          "zip": "270171",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 12,
+          "vans": 8,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ91PP8505",
+            "type": "Trailer",
+            "capacityInTons": 21,
+            "status": "Active",
+            "driverName": "ChildDriver_TC032_2"
+          },
+          {
+            "registrationNumber": "MH72SC5314",
+            "type": "Heavy Truck",
+            "capacityInTons": 25,
+            "status": "Active",
+            "driverName": "ChildDriver_TC032_0"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC033",
+    "companyName": "TransportCo 33 Pvt. Ltd.",
+    "address": {
+      "street": "27 Main Road",
+      "city": "Hyderabad",
+      "state": "Maharashtra",
+      "zip": "114573",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7925231286",
+      "email": "contact33@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 109,
+      "vans": 71,
+      "drivers": 151
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB94UQ4864",
+        "type": "Truck",
+        "capacityInTons": 16,
+        "status": "Maintenance",
+        "driverName": "Driver_33_1"
+      },
+      {
+        "registrationNumber": "DL20UE3645",
+        "type": "Trailer",
+        "capacityInTons": 23,
+        "status": "Maintenance",
+        "driverName": "Driver_33_4"
+      }
+    ],
+    "rating": 3.8,
+    "active": true
+  },
+  {
+    "id": "TC034",
+    "companyName": "TransportCo 34 Pvt. Ltd.",
+    "address": {
+      "street": "74 Main Road",
+      "city": "Ahmedabad",
+      "state": "Telangana",
+      "zip": "669670",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8010870496",
+      "email": "contact34@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 93,
+      "vans": 66,
+      "drivers": 138
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ76AF3785",
+        "type": "Truck",
+        "capacityInTons": 23,
+        "status": "Active",
+        "driverName": "Driver_34_3"
+      },
+      {
+        "registrationNumber": "KA70XX7491",
+        "type": "Crane",
+        "capacityInTons": 10,
+        "status": "Inactive",
+        "driverName": "Driver_34_1"
+      }
+    ],
+    "rating": 3.5,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC034-C1",
+        "companyName": "TransportCo 34 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7052155268",
+          "email": "branch1@transportco34pvt.ltd..in"
+        },
+        "address": {
+          "street": "23 Sub Road",
+          "city": "Bengaluru",
+          "state": "Gujarat",
+          "zip": "940846",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 13,
+          "vans": 20,
+          "drivers": 15
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB17KA1791",
+            "type": "Trailer",
+            "capacityInTons": 3,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC034_2"
+          },
+          {
+            "registrationNumber": "DL10GI5795",
+            "type": "Van",
+            "capacityInTons": 16,
+            "status": "Active",
+            "driverName": "ChildDriver_TC034_1"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC034-C2",
+        "companyName": "TransportCo 34 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-9785659338",
+          "email": "branch2@transportco34pvt.ltd..in"
+        },
+        "address": {
+          "street": "18 Sub Road",
+          "city": "Surat",
+          "state": "West Bengal",
+          "zip": "965855",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 5,
+          "vans": 3,
+          "drivers": 10
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA68JE3502",
+            "type": "Trailer",
+            "capacityInTons": 19,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC034_1"
+          },
+          {
+            "registrationNumber": "MH53JB4639",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 13,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC034_0"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC034-C3",
+        "companyName": "TransportCo 34 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-8944944425",
+          "email": "branch3@transportco34pvt.ltd..in"
+        },
+        "address": {
+          "street": "26 Sub Road",
+          "city": "Pune",
+          "state": "Gujarat",
+          "zip": "123610",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 20,
+          "vans": 16,
+          "drivers": 13
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB73UJ6029",
+            "type": "Crane",
+            "capacityInTons": 22,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC034_3"
+          },
+          {
+            "registrationNumber": "TN85SN1813",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC034_2"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC035",
+    "companyName": "TransportCo 35 Pvt. Ltd.",
+    "address": {
+      "street": "52 Main Road",
+      "city": "Bengaluru",
+      "state": "Tamil Nadu",
+      "zip": "978120",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7596834835",
+      "email": "contact35@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 98,
+      "vans": 16,
+      "drivers": 36
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH51UI9670",
+        "type": "Crane",
+        "capacityInTons": 23,
+        "status": "Maintenance",
+        "driverName": "Driver_35_1"
+      },
+      {
+        "registrationNumber": "WB38WL4849",
+        "type": "Truck",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_35_4"
+      }
+    ],
+    "rating": 4.7,
+    "active": false
+  },
+  {
+    "id": "TC036",
+    "companyName": "TransportCo 36 Pvt. Ltd.",
+    "address": {
+      "street": "14 Main Road",
+      "city": "Hyderabad",
+      "state": "Gujarat",
+      "zip": "207178",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7979521677",
+      "email": "contact36@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 47,
+      "vans": 63,
+      "drivers": 144
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA95HC1274",
+        "type": "Van",
+        "capacityInTons": 4,
+        "status": "Active",
+        "driverName": "Driver_36_0"
+      },
+      {
+        "registrationNumber": "GJ97EX9106",
+        "type": "Heavy Truck",
+        "capacityInTons": 5,
+        "status": "Maintenance",
+        "driverName": "Driver_36_1"
+      }
+    ],
+    "rating": 4.4,
+    "active": false
+  },
+  {
+    "id": "TC037",
+    "companyName": "TransportCo 37 Pvt. Ltd.",
+    "address": {
+      "street": "82 Main Road",
+      "city": "Delhi",
+      "state": "Tamil Nadu",
+      "zip": "817634",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7654204827",
+      "email": "contact37@transportco.in"
+    },
+    "services": [
+      "Air Cargo",
+      "Priority Shipping"
+    ],
+    "fleet": {
+      "trucks": 99,
+      "vans": 31,
+      "drivers": 150
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ37OM1304",
+        "type": "Crane",
+        "capacityInTons": 23,
+        "status": "Inactive",
+        "driverName": "Driver_37_1"
+      },
+      {
+        "registrationNumber": "KA41XV6419",
+        "type": "Van",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_37_2"
+      }
+    ],
+    "rating": 4.4,
+    "active": true
+  },
+  {
+    "id": "TC038",
+    "companyName": "TransportCo 38 Pvt. Ltd.",
+    "address": {
+      "street": "73 Main Road",
+      "city": "Jaipur",
+      "state": "Delhi",
+      "zip": "413575",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9062661372",
+      "email": "contact38@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 82,
+      "vans": 62,
+      "drivers": 50
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN64DC6298",
+        "type": "Truck",
+        "capacityInTons": 25,
+        "status": "Maintenance",
+        "driverName": "Driver_38_2"
+      },
+      {
+        "registrationNumber": "RJ79RM8838",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 7,
+        "status": "Inactive",
+        "driverName": "Driver_38_3"
+      }
+    ],
+    "rating": 3.7,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC038-C1",
+        "companyName": "TransportCo 38 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7879403446",
+          "email": "branch1@transportco38pvt.ltd..in"
+        },
+        "address": {
+          "street": "34 Sub Road",
+          "city": "Delhi",
+          "state": "Tamil Nadu",
+          "zip": "813180",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 16,
+          "vans": 4,
+          "drivers": 24
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ25US8568",
+            "type": "Van",
+            "capacityInTons": 2,
+            "status": "Active",
+            "driverName": "ChildDriver_TC038_4"
+          },
+          {
+            "registrationNumber": "WB84ZV2643",
+            "type": "Truck",
+            "capacityInTons": 13,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC038_4"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC038-C2",
+        "companyName": "TransportCo 38 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-8327347445",
+          "email": "branch2@transportco38pvt.ltd..in"
+        },
+        "address": {
+          "street": "25 Sub Road",
+          "city": "Surat",
+          "state": "Rajasthan",
+          "zip": "549695",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 24,
+          "vans": 19,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB32CC8321",
+            "type": "Truck",
+            "capacityInTons": 3,
+            "status": "Active",
+            "driverName": "ChildDriver_TC038_3"
+          },
+          {
+            "registrationNumber": "WB24BN5064",
+            "type": "Crane",
+            "capacityInTons": 25,
+            "status": "Active",
+            "driverName": "ChildDriver_TC038_4"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC039",
+    "companyName": "TransportCo 39 Pvt. Ltd.",
+    "address": {
+      "street": "40 Main Road",
+      "city": "Hyderabad",
+      "state": "West Bengal",
+      "zip": "659794",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9785293940",
+      "email": "contact39@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 150,
+      "vans": 75,
+      "drivers": 47
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA12LW8044",
+        "type": "Heavy Truck",
+        "capacityInTons": 21,
+        "status": "Maintenance",
+        "driverName": "Driver_39_3"
+      },
+      {
+        "registrationNumber": "RJ12LQ3763",
+        "type": "Heavy Truck",
+        "capacityInTons": 17,
+        "status": "Active",
+        "driverName": "Driver_39_3"
+      }
+    ],
+    "rating": 3.9,
+    "active": true
+  },
+  {
+    "id": "TC040",
+    "companyName": "TransportCo 40 Pvt. Ltd.",
+    "address": {
+      "street": "77 Main Road",
+      "city": "Hyderabad",
+      "state": "Tamil Nadu",
+      "zip": "312127",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7653063705",
+      "email": "contact40@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 132,
+      "vans": 54,
+      "drivers": 132
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL70IC9388",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 10,
+        "status": "Active",
+        "driverName": "Driver_40_3"
+      },
+      {
+        "registrationNumber": "DL97TM4965",
+        "type": "Trailer",
+        "capacityInTons": 21,
+        "status": "Maintenance",
+        "driverName": "Driver_40_0"
+      }
+    ],
+    "rating": 4.4,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC040-C1",
+        "companyName": "TransportCo 40 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8321108623",
+          "email": "branch1@transportco40pvt.ltd..in"
+        },
+        "address": {
+          "street": "41 Sub Road",
+          "city": "Surat",
+          "state": "Maharashtra",
+          "zip": "547827",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 27,
+          "vans": 11,
+          "drivers": 22
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ94ZW5160",
+            "type": "Van",
+            "capacityInTons": 12,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC040_3"
+          },
+          {
+            "registrationNumber": "GJ63ZS7017",
+            "type": "Truck",
+            "capacityInTons": 15,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC040_2"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC041",
+    "companyName": "TransportCo 41 Pvt. Ltd.",
+    "address": {
+      "street": "66 Main Road",
+      "city": "Ahmedabad",
+      "state": "West Bengal",
+      "zip": "309212",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9648334485",
+      "email": "contact41@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 36,
+      "vans": 11,
+      "drivers": 77
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL45OB6407",
+        "type": "Crane",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_41_4"
+      },
+      {
+        "registrationNumber": "WB85YN8680",
+        "type": "Crane",
+        "capacityInTons": 23,
+        "status": "Active",
+        "driverName": "Driver_41_1"
+      }
+    ],
+    "rating": 3.9,
+    "active": false
+  },
+  {
+    "id": "TC042",
+    "companyName": "TransportCo 42 Pvt. Ltd.",
+    "address": {
+      "street": "52 Main Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "303473",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7787608646",
+      "email": "contact42@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 74,
+      "vans": 71,
+      "drivers": 131
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH43VW2173",
+        "type": "Trailer",
+        "capacityInTons": 13,
+        "status": "Active",
+        "driverName": "Driver_42_3"
+      },
+      {
+        "registrationNumber": "WB74SY8477",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 22,
+        "status": "Active",
+        "driverName": "Driver_42_3"
+      }
+    ],
+    "rating": 3.8,
+    "active": true
+  },
+  {
+    "id": "TC043",
+    "companyName": "TransportCo 43 Pvt. Ltd.",
+    "address": {
+      "street": "100 Main Road",
+      "city": "Chennai",
+      "state": "West Bengal",
+      "zip": "743461",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9584586425",
+      "email": "contact43@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 101,
+      "vans": 68,
+      "drivers": 171
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA44UK9337",
+        "type": "Trailer",
+        "capacityInTons": 9,
+        "status": "Maintenance",
+        "driverName": "Driver_43_4"
+      },
+      {
+        "registrationNumber": "WB23KL3472",
+        "type": "Crane",
+        "capacityInTons": 15,
+        "status": "Active",
+        "driverName": "Driver_43_3"
+      }
+    ],
+    "rating": 4.9,
+    "active": true
+  },
+  {
+    "id": "TC044",
+    "companyName": "TransportCo 44 Pvt. Ltd.",
+    "address": {
+      "street": "55 Main Road",
+      "city": "Mumbai",
+      "state": "Karnataka",
+      "zip": "398062",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8701630867",
+      "email": "contact44@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 26,
+      "vans": 33,
+      "drivers": 147
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL59QZ9732",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_44_0"
+      },
+      {
+        "registrationNumber": "WB92AD5957",
+        "type": "Crane",
+        "capacityInTons": 13,
+        "status": "Active",
+        "driverName": "Driver_44_1"
+      }
+    ],
+    "rating": 4.2,
+    "active": false
+  },
+  {
+    "id": "TC045",
+    "companyName": "TransportCo 45 Pvt. Ltd.",
+    "address": {
+      "street": "16 Main Road",
+      "city": "Mumbai",
+      "state": "Delhi",
+      "zip": "567014",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8006511866",
+      "email": "contact45@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 24,
+      "vans": 73,
+      "drivers": 175
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ40ED1475",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 24,
+        "status": "Inactive",
+        "driverName": "Driver_45_2"
+      },
+      {
+        "registrationNumber": "DL10VL5948",
+        "type": "Crane",
+        "capacityInTons": 16,
+        "status": "Inactive",
+        "driverName": "Driver_45_3"
+      }
+    ],
+    "rating": 4.1,
+    "active": false
+  },
+  {
+    "id": "TC046",
+    "companyName": "TransportCo 46 Pvt. Ltd.",
+    "address": {
+      "street": "72 Main Road",
+      "city": "Jaipur",
+      "state": "West Bengal",
+      "zip": "408245",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8720017199",
+      "email": "contact46@transportco.in"
+    },
+    "services": [
+      "Air Cargo",
+      "Priority Shipping"
+    ],
+    "fleet": {
+      "trucks": 57,
+      "vans": 20,
+      "drivers": 190
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ76XA4591",
+        "type": "Trailer",
+        "capacityInTons": 10,
+        "status": "Inactive",
+        "driverName": "Driver_46_2"
+      },
+      {
+        "registrationNumber": "DL47JW1814",
+        "type": "Heavy Truck",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_46_3"
+      }
+    ],
+    "rating": 4.7,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC046-C1",
+        "companyName": "TransportCo 46 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9461642275",
+          "email": "branch1@transportco46pvt.ltd..in"
+        },
+        "address": {
+          "street": "34 Sub Road",
+          "city": "Bengaluru",
+          "state": "Delhi",
+          "zip": "348694",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 14,
+          "vans": 6,
+          "drivers": 10
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "DL89WP4798",
+            "type": "Heavy Truck",
+            "capacityInTons": 3,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC046_2"
+          },
+          {
+            "registrationNumber": "TN49VF9736",
+            "type": "Trailer",
+            "capacityInTons": 7,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC046_2"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC046-C2",
+        "companyName": "TransportCo 46 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7865486863",
+          "email": "branch2@transportco46pvt.ltd..in"
+        },
+        "address": {
+          "street": "28 Sub Road",
+          "city": "Bengaluru",
+          "state": "Telangana",
+          "zip": "387455",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 28,
+          "vans": 14,
+          "drivers": 11
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ69EK4853",
+            "type": "Van",
+            "capacityInTons": 23,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC046_2"
+          },
+          {
+            "registrationNumber": "TN63RZ3240",
+            "type": "Heavy Truck",
+            "capacityInTons": 25,
+            "status": "Active",
+            "driverName": "ChildDriver_TC046_2"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC047",
+    "companyName": "TransportCo 47 Pvt. Ltd.",
+    "address": {
+      "street": "18 Main Road",
+      "city": "Surat",
+      "state": "Gujarat",
+      "zip": "185576",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7157747431",
+      "email": "contact47@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 61,
+      "vans": 28,
+      "drivers": 40
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH75WV3846",
+        "type": "Crane",
+        "capacityInTons": 17,
+        "status": "Active",
+        "driverName": "Driver_47_4"
+      },
+      {
+        "registrationNumber": "DL28GL9142",
+        "type": "Heavy Truck",
+        "capacityInTons": 15,
+        "status": "Active",
+        "driverName": "Driver_47_2"
+      }
+    ],
+    "rating": 4.9,
+    "active": true
+  },
+  {
+    "id": "TC048",
+    "companyName": "TransportCo 48 Pvt. Ltd.",
+    "address": {
+      "street": "39 Main Road",
+      "city": "Ahmedabad",
+      "state": "Maharashtra",
+      "zip": "673786",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7759971048",
+      "email": "contact48@transportco.in"
+    },
+    "services": [
+      "Air Cargo",
+      "Priority Shipping"
+    ],
+    "fleet": {
+      "trucks": 27,
+      "vans": 14,
+      "drivers": 135
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH87KF1766",
+        "type": "Crane",
+        "capacityInTons": 14,
+        "status": "Active",
+        "driverName": "Driver_48_2"
+      },
+      {
+        "registrationNumber": "RJ79IJ6565",
+        "type": "Van",
+        "capacityInTons": 14,
+        "status": "Maintenance",
+        "driverName": "Driver_48_0"
+      }
+    ],
+    "rating": 3.7,
+    "active": true
+  },
+  {
+    "id": "TC049",
+    "companyName": "TransportCo 49 Pvt. Ltd.",
+    "address": {
+      "street": "68 Main Road",
+      "city": "Surat",
+      "state": "West Bengal",
+      "zip": "126515",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9305577421",
+      "email": "contact49@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 67,
+      "vans": 38,
+      "drivers": 110
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB11WC3006",
+        "type": "Heavy Truck",
+        "capacityInTons": 10,
+        "status": "Maintenance",
+        "driverName": "Driver_49_3"
+      },
+      {
+        "registrationNumber": "DL62YP4799",
+        "type": "Van",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_49_0"
+      }
+    ],
+    "rating": 3.8,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC049-C1",
+        "companyName": "TransportCo 49 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8879076579",
+          "email": "branch1@transportco49pvt.ltd..in"
+        },
+        "address": {
+          "street": "50 Sub Road",
+          "city": "Pune",
+          "state": "Karnataka",
+          "zip": "614236",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 19,
+          "vans": 10,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH82YY6719",
+            "type": "Crane",
+            "capacityInTons": 17,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC049_3"
+          },
+          {
+            "registrationNumber": "TN38OP9689",
+            "type": "Truck",
+            "capacityInTons": 18,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC049_2"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC049-C2",
+        "companyName": "TransportCo 49 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-9631243770",
+          "email": "branch2@transportco49pvt.ltd..in"
+        },
+        "address": {
+          "street": "35 Sub Road",
+          "city": "Delhi",
+          "state": "Delhi",
+          "zip": "629101",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 15,
+          "vans": 17,
+          "drivers": 25
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH69XI8469",
+            "type": "Heavy Truck",
+            "capacityInTons": 19,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC049_4"
+          },
+          {
+            "registrationNumber": "TN76UX4829",
+            "type": "Truck",
+            "capacityInTons": 23,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC049_3"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC050",
+    "companyName": "TransportCo 50 Pvt. Ltd.",
+    "address": {
+      "street": "71 Main Road",
+      "city": "Chennai",
+      "state": "Gujarat",
+      "zip": "715051",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9738492986",
+      "email": "contact50@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 47,
+      "vans": 57,
+      "drivers": 162
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH84LH7164",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 24,
+        "status": "Maintenance",
+        "driverName": "Driver_50_1"
+      },
+      {
+        "registrationNumber": "MH51TA1640",
+        "type": "Crane",
+        "capacityInTons": 17,
+        "status": "Inactive",
+        "driverName": "Driver_50_0"
+      }
+    ],
+    "rating": 3.7,
+    "active": true
+  },
+  {
+    "id": "TC051",
+    "companyName": "TransportCo 51 Pvt. Ltd.",
+    "address": {
+      "street": "75 Main Road",
+      "city": "Delhi",
+      "state": "Tamil Nadu",
+      "zip": "487756",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7606454060",
+      "email": "contact51@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 22,
+      "vans": 54,
+      "drivers": 118
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL14TK2950",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 17,
+        "status": "Inactive",
+        "driverName": "Driver_51_2"
+      },
+      {
+        "registrationNumber": "MH93AO4013",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 7,
+        "status": "Inactive",
+        "driverName": "Driver_51_4"
+      }
+    ],
+    "rating": 4.3,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC051-C1",
+        "companyName": "TransportCo 51 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7785664259",
+          "email": "branch1@transportco51pvt.ltd..in"
+        },
+        "address": {
+          "street": "42 Sub Road",
+          "city": "Hyderabad",
+          "state": "Delhi",
+          "zip": "297159",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 15,
+          "vans": 18,
+          "drivers": 17
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB35OZ5329",
+            "type": "Crane",
+            "capacityInTons": 15,
+            "status": "Active",
+            "driverName": "ChildDriver_TC051_0"
+          },
+          {
+            "registrationNumber": "MH15GP5317",
+            "type": "Truck",
+            "capacityInTons": 17,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC051_2"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC052",
+    "companyName": "TransportCo 52 Pvt. Ltd.",
+    "address": {
+      "street": "80 Main Road",
+      "city": "Kolkata",
+      "state": "Tamil Nadu",
+      "zip": "203252",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9325102443",
+      "email": "contact52@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 118,
+      "vans": 40,
+      "drivers": 44
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL21MK2668",
+        "type": "Truck",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_52_3"
+      },
+      {
+        "registrationNumber": "TN26HA6685",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 5,
+        "status": "Maintenance",
+        "driverName": "Driver_52_4"
+      }
+    ],
+    "rating": 4.2,
+    "active": true
+  },
+  {
+    "id": "TC053",
+    "companyName": "TransportCo 53 Pvt. Ltd.",
+    "address": {
+      "street": "37 Main Road",
+      "city": "Pune",
+      "state": "Rajasthan",
+      "zip": "309142",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7674929198",
+      "email": "contact53@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 57,
+      "vans": 22,
+      "drivers": 92
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB38CR5201",
+        "type": "Van",
+        "capacityInTons": 13,
+        "status": "Maintenance",
+        "driverName": "Driver_53_2"
+      },
+      {
+        "registrationNumber": "WB11NR6923",
+        "type": "Truck",
+        "capacityInTons": 25,
+        "status": "Active",
+        "driverName": "Driver_53_2"
+      }
+    ],
+    "rating": 4.8,
+    "active": true
+  },
+  {
+    "id": "TC054",
+    "companyName": "TransportCo 54 Pvt. Ltd.",
+    "address": {
+      "street": "37 Main Road",
+      "city": "Mumbai",
+      "state": "West Bengal",
+      "zip": "885100",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8962151173",
+      "email": "contact54@transportco.in"
+    },
+    "services": [
+      "Air Cargo",
+      "Priority Shipping"
+    ],
+    "fleet": {
+      "trucks": 116,
+      "vans": 37,
+      "drivers": 44
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ96PI4169",
+        "type": "Van",
+        "capacityInTons": 6,
+        "status": "Maintenance",
+        "driverName": "Driver_54_0"
+      },
+      {
+        "registrationNumber": "TN94NV3382",
+        "type": "Trailer",
+        "capacityInTons": 2,
+        "status": "Active",
+        "driverName": "Driver_54_2"
+      }
+    ],
+    "rating": 4.8,
+    "active": false
+  },
+  {
+    "id": "TC055",
+    "companyName": "TransportCo 55 Pvt. Ltd.",
+    "address": {
+      "street": "3 Main Road",
+      "city": "Hyderabad",
+      "state": "Tamil Nadu",
+      "zip": "445356",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7582757752",
+      "email": "contact55@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 143,
+      "vans": 74,
+      "drivers": 147
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH65AZ1554",
+        "type": "Trailer",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_55_4"
+      },
+      {
+        "registrationNumber": "RJ89VJ7935",
+        "type": "Heavy Truck",
+        "capacityInTons": 8,
+        "status": "Active",
+        "driverName": "Driver_55_3"
+      }
+    ],
+    "rating": 3.8,
+    "active": false
+  },
+  {
+    "id": "TC056",
+    "companyName": "TransportCo 56 Pvt. Ltd.",
+    "address": {
+      "street": "84 Main Road",
+      "city": "Bengaluru",
+      "state": "Delhi",
+      "zip": "718016",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8365282644",
+      "email": "contact56@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 38,
+      "vans": 45,
+      "drivers": 156
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH48YH9229",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 7,
+        "status": "Active",
+        "driverName": "Driver_56_2"
+      },
+      {
+        "registrationNumber": "GJ72QX9648",
+        "type": "Trailer",
+        "capacityInTons": 2,
+        "status": "Active",
+        "driverName": "Driver_56_1"
+      }
+    ],
+    "rating": 4.2,
+    "active": true
+  },
+  {
+    "id": "TC057",
+    "companyName": "TransportCo 57 Pvt. Ltd.",
+    "address": {
+      "street": "52 Main Road",
+      "city": "Surat",
+      "state": "Tamil Nadu",
+      "zip": "921073",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8772586453",
+      "email": "contact57@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 45,
+      "vans": 11,
+      "drivers": 134
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN93GT3075",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 5,
+        "status": "Maintenance",
+        "driverName": "Driver_57_0"
+      },
+      {
+        "registrationNumber": "WB62OA8135",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 11,
+        "status": "Active",
+        "driverName": "Driver_57_3"
+      }
+    ],
+    "rating": 4.8,
+    "active": true
+  },
+  {
+    "id": "TC058",
+    "companyName": "TransportCo 58 Pvt. Ltd.",
+    "address": {
+      "street": "27 Main Road",
+      "city": "Pune",
+      "state": "Delhi",
+      "zip": "635844",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9724194193",
+      "email": "contact58@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 107,
+      "vans": 12,
+      "drivers": 150
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB91BK4766",
+        "type": "Truck",
+        "capacityInTons": 23,
+        "status": "Maintenance",
+        "driverName": "Driver_58_2"
+      },
+      {
+        "registrationNumber": "DL79QM1423",
+        "type": "Heavy Truck",
+        "capacityInTons": 25,
+        "status": "Maintenance",
+        "driverName": "Driver_58_0"
+      }
+    ],
+    "rating": 4.1,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC058-C1",
+        "companyName": "TransportCo 58 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9259486208",
+          "email": "branch1@transportco58pvt.ltd..in"
+        },
+        "address": {
+          "street": "31 Sub Road",
+          "city": "Bengaluru",
+          "state": "Maharashtra",
+          "zip": "362633",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 13,
+          "vans": 6,
+          "drivers": 22
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH77WZ8929",
+            "type": "Trailer",
+            "capacityInTons": 13,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC058_2"
+          },
+          {
+            "registrationNumber": "RJ22AS4169",
+            "type": "Truck",
+            "capacityInTons": 16,
+            "status": "Active",
+            "driverName": "ChildDriver_TC058_3"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC058-C2",
+        "companyName": "TransportCo 58 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7147234533",
+          "email": "branch2@transportco58pvt.ltd..in"
+        },
+        "address": {
+          "street": "27 Sub Road",
+          "city": "Surat",
+          "state": "Telangana",
+          "zip": "226457",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 8,
+          "vans": 12,
+          "drivers": 20
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN92WT2833",
+            "type": "Crane",
+            "capacityInTons": 22,
+            "status": "Active",
+            "driverName": "ChildDriver_TC058_1"
+          },
+          {
+            "registrationNumber": "TN76ZP4543",
+            "type": "Crane",
+            "capacityInTons": 19,
+            "status": "Active",
+            "driverName": "ChildDriver_TC058_3"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC059",
+    "companyName": "TransportCo 59 Pvt. Ltd.",
+    "address": {
+      "street": "15 Main Road",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zip": "496068",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8242142489",
+      "email": "contact59@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 147,
+      "vans": 16,
+      "drivers": 192
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL93LP8845",
+        "type": "Trailer",
+        "capacityInTons": 21,
+        "status": "Maintenance",
+        "driverName": "Driver_59_3"
+      },
+      {
+        "registrationNumber": "TN39RW8834",
+        "type": "Truck",
+        "capacityInTons": 11,
+        "status": "Active",
+        "driverName": "Driver_59_0"
+      }
+    ],
+    "rating": 4.6,
+    "active": false
+  },
+  {
+    "id": "TC060",
+    "companyName": "TransportCo 60 Pvt. Ltd.",
+    "address": {
+      "street": "33 Main Road",
+      "city": "Jaipur",
+      "state": "Gujarat",
+      "zip": "656833",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9635536967",
+      "email": "contact60@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 137,
+      "vans": 28,
+      "drivers": 105
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ16YC5138",
+        "type": "Truck",
+        "capacityInTons": 11,
+        "status": "Active",
+        "driverName": "Driver_60_3"
+      },
+      {
+        "registrationNumber": "KA10DI3243",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 20,
+        "status": "Active",
+        "driverName": "Driver_60_3"
+      }
+    ],
+    "rating": 4.1,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC060-C1",
+        "companyName": "TransportCo 60 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8153946775",
+          "email": "branch1@transportco60pvt.ltd..in"
+        },
+        "address": {
+          "street": "37 Sub Road",
+          "city": "Mumbai",
+          "state": "West Bengal",
+          "zip": "447224",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 29,
+          "vans": 3,
+          "drivers": 7
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA88QM7049",
+            "type": "Crane",
+            "capacityInTons": 4,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC060_4"
+          },
+          {
+            "registrationNumber": "GJ82IK3829",
+            "type": "Trailer",
+            "capacityInTons": 3,
+            "status": "Active",
+            "driverName": "ChildDriver_TC060_3"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC061",
+    "companyName": "TransportCo 61 Pvt. Ltd.",
+    "address": {
+      "street": "17 Main Road",
+      "city": "Hyderabad",
+      "state": "Karnataka",
+      "zip": "507026",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7433901006",
+      "email": "contact61@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 120,
+      "vans": 43,
+      "drivers": 47
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ45WT8667",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_61_4"
+      },
+      {
+        "registrationNumber": "WB82MG7543",
+        "type": "Truck",
+        "capacityInTons": 4,
+        "status": "Active",
+        "driverName": "Driver_61_1"
+      }
+    ],
+    "rating": 4.1,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC061-C1",
+        "companyName": "TransportCo 61 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7275930732",
+          "email": "branch1@transportco61pvt.ltd..in"
+        },
+        "address": {
+          "street": "21 Sub Road",
+          "city": "Mumbai",
+          "state": "Telangana",
+          "zip": "449513",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 8,
+          "vans": 9,
+          "drivers": 19
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ30GE9118",
+            "type": "Van",
+            "capacityInTons": 15,
+            "status": "Active",
+            "driverName": "ChildDriver_TC061_3"
+          },
+          {
+            "registrationNumber": "TN67YZ7665",
+            "type": "Crane",
+            "capacityInTons": 20,
+            "status": "Active",
+            "driverName": "ChildDriver_TC061_3"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC061-C2",
+        "companyName": "TransportCo 61 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-9563317676",
+          "email": "branch2@transportco61pvt.ltd..in"
+        },
+        "address": {
+          "street": "23 Sub Road",
+          "city": "Chennai",
+          "state": "Gujarat",
+          "zip": "668138",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 24,
+          "vans": 15,
+          "drivers": 19
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "DL10ZR5451",
+            "type": "Van",
+            "capacityInTons": 20,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC061_2"
+          },
+          {
+            "registrationNumber": "WB42ZN5559",
+            "type": "Heavy Truck",
+            "capacityInTons": 9,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC061_1"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC061-C3",
+        "companyName": "TransportCo 61 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-9612676314",
+          "email": "branch3@transportco61pvt.ltd..in"
+        },
+        "address": {
+          "street": "39 Sub Road",
+          "city": "Hyderabad",
+          "state": "Delhi",
+          "zip": "379055",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 5,
+          "vans": 5,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ66VK1856",
+            "type": "Trailer",
+            "capacityInTons": 4,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC061_3"
+          },
+          {
+            "registrationNumber": "KA39CV7272",
+            "type": "Van",
+            "capacityInTons": 6,
+            "status": "Active",
+            "driverName": "ChildDriver_TC061_3"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC062",
+    "companyName": "TransportCo 62 Pvt. Ltd.",
+    "address": {
+      "street": "26 Main Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "zip": "356374",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9054244874",
+      "email": "contact62@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 144,
+      "vans": 35,
+      "drivers": 91
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH70YB7341",
+        "type": "Heavy Truck",
+        "capacityInTons": 23,
+        "status": "Maintenance",
+        "driverName": "Driver_62_0"
+      },
+      {
+        "registrationNumber": "GJ84AT9857",
+        "type": "Truck",
+        "capacityInTons": 3,
+        "status": "Active",
+        "driverName": "Driver_62_0"
+      }
+    ],
+    "rating": 4.3,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC062-C1",
+        "companyName": "TransportCo 62 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9792091919",
+          "email": "branch1@transportco62pvt.ltd..in"
+        },
+        "address": {
+          "street": "34 Sub Road",
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "zip": "566434",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 8,
+          "vans": 10,
+          "drivers": 11
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB66BA4139",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 19,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC062_4"
+          },
+          {
+            "registrationNumber": "TN78VA2802",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 4,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC062_3"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC063",
+    "companyName": "TransportCo 63 Pvt. Ltd.",
+    "address": {
+      "street": "4 Main Road",
+      "city": "Jaipur",
+      "state": "West Bengal",
+      "zip": "285264",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9165137547",
+      "email": "contact63@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 124,
+      "vans": 75,
+      "drivers": 87
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ66VY5704",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Inactive",
+        "driverName": "Driver_63_2"
+      },
+      {
+        "registrationNumber": "WB52VV1021",
+        "type": "Crane",
+        "capacityInTons": 15,
+        "status": "Active",
+        "driverName": "Driver_63_2"
+      }
+    ],
+    "rating": 4.2,
+    "active": false
+  },
+  {
+    "id": "TC064",
+    "companyName": "TransportCo 64 Pvt. Ltd.",
+    "address": {
+      "street": "56 Main Road",
+      "city": "Hyderabad",
+      "state": "Maharashtra",
+      "zip": "374921",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9751737272",
+      "email": "contact64@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 49,
+      "vans": 12,
+      "drivers": 111
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH16LZ1178",
+        "type": "Van",
+        "capacityInTons": 18,
+        "status": "Inactive",
+        "driverName": "Driver_64_1"
+      },
+      {
+        "registrationNumber": "WB74CL3632",
+        "type": "Trailer",
+        "capacityInTons": 20,
+        "status": "Active",
+        "driverName": "Driver_64_0"
+      }
+    ],
+    "rating": 4.4,
+    "active": true
+  },
+  {
+    "id": "TC065",
+    "companyName": "TransportCo 65 Pvt. Ltd.",
+    "address": {
+      "street": "91 Main Road",
+      "city": "Surat",
+      "state": "Karnataka",
+      "zip": "311459",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7722185579",
+      "email": "contact65@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 120,
+      "vans": 53,
+      "drivers": 171
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN72NE9979",
+        "type": "Van",
+        "capacityInTons": 18,
+        "status": "Inactive",
+        "driverName": "Driver_65_2"
+      },
+      {
+        "registrationNumber": "KA10VG8794",
+        "type": "Trailer",
+        "capacityInTons": 8,
+        "status": "Active",
+        "driverName": "Driver_65_0"
+      }
+    ],
+    "rating": 4.2,
+    "active": false
+  },
+  {
+    "id": "TC066",
+    "companyName": "TransportCo 66 Pvt. Ltd.",
+    "address": {
+      "street": "95 Main Road",
+      "city": "Bengaluru",
+      "state": "West Bengal",
+      "zip": "591776",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8696985177",
+      "email": "contact66@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 34,
+      "vans": 52,
+      "drivers": 149
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN31FF3736",
+        "type": "Truck",
+        "capacityInTons": 22,
+        "status": "Active",
+        "driverName": "Driver_66_0"
+      },
+      {
+        "registrationNumber": "WB39DO3502",
+        "type": "Heavy Truck",
+        "capacityInTons": 22,
+        "status": "Maintenance",
+        "driverName": "Driver_66_0"
+      }
+    ],
+    "rating": 3.9,
+    "active": false
+  },
+  {
+    "id": "TC067",
+    "companyName": "TransportCo 67 Pvt. Ltd.",
+    "address": {
+      "street": "30 Main Road",
+      "city": "Delhi",
+      "state": "Rajasthan",
+      "zip": "876599",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7053392653",
+      "email": "contact67@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 84,
+      "vans": 51,
+      "drivers": 142
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL44RH9969",
+        "type": "Truck",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_67_1"
+      },
+      {
+        "registrationNumber": "KA34XN9666",
+        "type": "Heavy Truck",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_67_2"
+      }
+    ],
+    "rating": 4.8,
+    "active": false
+  },
+  {
+    "id": "TC068",
+    "companyName": "TransportCo 68 Pvt. Ltd.",
+    "address": {
+      "street": "95 Main Road",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "854368",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8221445083",
+      "email": "contact68@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 68,
+      "vans": 25,
+      "drivers": 181
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ14IN1360",
+        "type": "Truck",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_68_3"
+      },
+      {
+        "registrationNumber": "TN17NL7287",
+        "type": "Heavy Truck",
+        "capacityInTons": 16,
+        "status": "Inactive",
+        "driverName": "Driver_68_0"
+      }
+    ],
+    "rating": 4.7,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC068-C1",
+        "companyName": "TransportCo 68 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8285474417",
+          "email": "branch1@transportco68pvt.ltd..in"
+        },
+        "address": {
+          "street": "19 Sub Road",
+          "city": "Delhi",
+          "state": "Telangana",
+          "zip": "501342",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 14,
+          "vans": 13,
+          "drivers": 8
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "DL78KG2071",
+            "type": "Heavy Truck",
+            "capacityInTons": 2,
+            "status": "Active",
+            "driverName": "ChildDriver_TC068_4"
+          },
+          {
+            "registrationNumber": "TN22OB1854",
+            "type": "Van",
+            "capacityInTons": 23,
+            "status": "Active",
+            "driverName": "ChildDriver_TC068_0"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC069",
+    "companyName": "TransportCo 69 Pvt. Ltd.",
+    "address": {
+      "street": "41 Main Road",
+      "city": "Jaipur",
+      "state": "West Bengal",
+      "zip": "772569",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7928046386",
+      "email": "contact69@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 115,
+      "vans": 33,
+      "drivers": 167
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH46WS9478",
+        "type": "Truck",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_69_0"
+      },
+      {
+        "registrationNumber": "KA88UO9758",
+        "type": "Heavy Truck",
+        "capacityInTons": 8,
+        "status": "Active",
+        "driverName": "Driver_69_2"
+      }
+    ],
+    "rating": 4.9,
+    "active": true
+  },
+  {
+    "id": "TC070",
+    "companyName": "TransportCo 70 Pvt. Ltd.",
+    "address": {
+      "street": "21 Main Road",
+      "city": "Surat",
+      "state": "Gujarat",
+      "zip": "195744",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7357637256",
+      "email": "contact70@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 113,
+      "vans": 62,
+      "drivers": 166
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN32CV8446",
+        "type": "Heavy Truck",
+        "capacityInTons": 14,
+        "status": "Inactive",
+        "driverName": "Driver_70_3"
+      },
+      {
+        "registrationNumber": "MH92BJ5727",
+        "type": "Trailer",
+        "capacityInTons": 18,
+        "status": "Maintenance",
+        "driverName": "Driver_70_1"
+      }
+    ],
+    "rating": 4.2,
+    "active": true
+  },
+  {
+    "id": "TC071",
+    "companyName": "TransportCo 71 Pvt. Ltd.",
+    "address": {
+      "street": "61 Main Road",
+      "city": "Mumbai",
+      "state": "Gujarat",
+      "zip": "623574",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8040937287",
+      "email": "contact71@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 73,
+      "vans": 42,
+      "drivers": 92
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN37JE4815",
+        "type": "Truck",
+        "capacityInTons": 2,
+        "status": "Active",
+        "driverName": "Driver_71_3"
+      },
+      {
+        "registrationNumber": "DL71MC4453",
+        "type": "Heavy Truck",
+        "capacityInTons": 22,
+        "status": "Maintenance",
+        "driverName": "Driver_71_0"
+      }
+    ],
+    "rating": 4.5,
+    "active": true
+  },
+  {
+    "id": "TC072",
+    "companyName": "TransportCo 72 Pvt. Ltd.",
+    "address": {
+      "street": "19 Main Road",
+      "city": "Bengaluru",
+      "state": "West Bengal",
+      "zip": "708627",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8571221307",
+      "email": "contact72@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 84,
+      "vans": 57,
+      "drivers": 161
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ85UG5216",
+        "type": "Heavy Truck",
+        "capacityInTons": 15,
+        "status": "Inactive",
+        "driverName": "Driver_72_0"
+      },
+      {
+        "registrationNumber": "DL63XI8888",
+        "type": "Heavy Truck",
+        "capacityInTons": 5,
+        "status": "Inactive",
+        "driverName": "Driver_72_2"
+      }
+    ],
+    "rating": 3.9,
+    "active": false
+  },
+  {
+    "id": "TC073",
+    "companyName": "TransportCo 73 Pvt. Ltd.",
+    "address": {
+      "street": "6 Main Road",
+      "city": "Chennai",
+      "state": "West Bengal",
+      "zip": "526823",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8453444644",
+      "email": "contact73@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 131,
+      "vans": 75,
+      "drivers": 194
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN90XB2281",
+        "type": "Van",
+        "capacityInTons": 17,
+        "status": "Active",
+        "driverName": "Driver_73_3"
+      },
+      {
+        "registrationNumber": "KA88YY5096",
+        "type": "Truck",
+        "capacityInTons": 9,
+        "status": "Active",
+        "driverName": "Driver_73_1"
+      }
+    ],
+    "rating": 3.5,
+    "active": true
+  },
+  {
+    "id": "TC074",
+    "companyName": "TransportCo 74 Pvt. Ltd.",
+    "address": {
+      "street": "30 Main Road",
+      "city": "Mumbai",
+      "state": "Telangana",
+      "zip": "347372",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9864924681",
+      "email": "contact74@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 21,
+      "vans": 46,
+      "drivers": 80
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA89OB7320",
+        "type": "Crane",
+        "capacityInTons": 24,
+        "status": "Active",
+        "driverName": "Driver_74_4"
+      },
+      {
+        "registrationNumber": "GJ90WF7641",
+        "type": "Heavy Truck",
+        "capacityInTons": 14,
+        "status": "Active",
+        "driverName": "Driver_74_4"
+      }
+    ],
+    "rating": 4.3,
+    "active": true
+  },
+  {
+    "id": "TC075",
+    "companyName": "TransportCo 75 Pvt. Ltd.",
+    "address": {
+      "street": "37 Main Road",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "zip": "739148",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8358771249",
+      "email": "contact75@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 112,
+      "vans": 67,
+      "drivers": 144
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB27TU8391",
+        "type": "Crane",
+        "capacityInTons": 4,
+        "status": "Active",
+        "driverName": "Driver_75_0"
+      },
+      {
+        "registrationNumber": "DL66UJ2425",
+        "type": "Crane",
+        "capacityInTons": 13,
+        "status": "Inactive",
+        "driverName": "Driver_75_3"
+      }
+    ],
+    "rating": 4.3,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC075-C1",
+        "companyName": "TransportCo 75 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9113392040",
+          "email": "branch1@transportco75pvt.ltd..in"
+        },
+        "address": {
+          "street": "17 Sub Road",
+          "city": "Chennai",
+          "state": "Karnataka",
+          "zip": "731771",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 27,
+          "vans": 18,
+          "drivers": 16
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH44PN6576",
+            "type": "Crane",
+            "capacityInTons": 18,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC075_3"
+          },
+          {
+            "registrationNumber": "TN70DC9204",
+            "type": "Crane",
+            "capacityInTons": 23,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC075_4"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC076",
+    "companyName": "TransportCo 76 Pvt. Ltd.",
+    "address": {
+      "street": "75 Main Road",
+      "city": "Ahmedabad",
+      "state": "Rajasthan",
+      "zip": "483585",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9954322034",
+      "email": "contact76@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 140,
+      "vans": 45,
+      "drivers": 60
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL57QZ8637",
+        "type": "Van",
+        "capacityInTons": 13,
+        "status": "Inactive",
+        "driverName": "Driver_76_3"
+      },
+      {
+        "registrationNumber": "RJ88UM4036",
+        "type": "Van",
+        "capacityInTons": 5,
+        "status": "Active",
+        "driverName": "Driver_76_3"
+      }
+    ],
+    "rating": 4.0,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC076-C1",
+        "companyName": "TransportCo 76 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8261319400",
+          "email": "branch1@transportco76pvt.ltd..in"
+        },
+        "address": {
+          "street": "18 Sub Road",
+          "city": "Mumbai",
+          "state": "Karnataka",
+          "zip": "470360",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 20,
+          "vans": 9,
+          "drivers": 12
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA32RZ6258",
+            "type": "Crane",
+            "capacityInTons": 12,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC076_2"
+          },
+          {
+            "registrationNumber": "WB31CN9725",
+            "type": "Trailer",
+            "capacityInTons": 25,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC076_1"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC076-C2",
+        "companyName": "TransportCo 76 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-9397280967",
+          "email": "branch2@transportco76pvt.ltd..in"
+        },
+        "address": {
+          "street": "29 Sub Road",
+          "city": "Ahmedabad",
+          "state": "West Bengal",
+          "zip": "394899",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 11,
+          "vans": 14,
+          "drivers": 13
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ71DW4382",
+            "type": "Heavy Truck",
+            "capacityInTons": 8,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC076_0"
+          },
+          {
+            "registrationNumber": "RJ10JZ9821",
+            "type": "Truck",
+            "capacityInTons": 8,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC076_4"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC076-C3",
+        "companyName": "TransportCo 76 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-8148988557",
+          "email": "branch3@transportco76pvt.ltd..in"
+        },
+        "address": {
+          "street": "41 Sub Road",
+          "city": "Hyderabad",
+          "state": "Gujarat",
+          "zip": "697781",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 25,
+          "vans": 8,
+          "drivers": 18
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "MH95TU8499",
+            "type": "Heavy Truck",
+            "capacityInTons": 4,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC076_4"
+          },
+          {
+            "registrationNumber": "KA44PV3658",
+            "type": "Heavy Truck",
+            "capacityInTons": 19,
+            "status": "Active",
+            "driverName": "ChildDriver_TC076_0"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC077",
+    "companyName": "TransportCo 77 Pvt. Ltd.",
+    "address": {
+      "street": "12 Main Road",
+      "city": "Hyderabad",
+      "state": "West Bengal",
+      "zip": "991967",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8026740757",
+      "email": "contact77@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 61,
+      "vans": 11,
+      "drivers": 137
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN50BB4491",
+        "type": "Truck",
+        "capacityInTons": 4,
+        "status": "Inactive",
+        "driverName": "Driver_77_4"
+      },
+      {
+        "registrationNumber": "KA26AG4300",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 20,
+        "status": "Inactive",
+        "driverName": "Driver_77_1"
+      }
+    ],
+    "rating": 4.1,
+    "active": false
+  },
+  {
+    "id": "TC078",
+    "companyName": "TransportCo 78 Pvt. Ltd.",
+    "address": {
+      "street": "75 Main Road",
+      "city": "Mumbai",
+      "state": "Delhi",
+      "zip": "685250",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8876917955",
+      "email": "contact78@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 120,
+      "vans": 21,
+      "drivers": 191
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA30EL7993",
+        "type": "Van",
+        "capacityInTons": 21,
+        "status": "Active",
+        "driverName": "Driver_78_0"
+      },
+      {
+        "registrationNumber": "GJ75ZK8465",
+        "type": "Heavy Truck",
+        "capacityInTons": 4,
+        "status": "Active",
+        "driverName": "Driver_78_4"
+      }
+    ],
+    "rating": 3.8,
+    "active": false
+  },
+  {
+    "id": "TC079",
+    "companyName": "TransportCo 79 Pvt. Ltd.",
+    "address": {
+      "street": "81 Main Road",
+      "city": "Ahmedabad",
+      "state": "West Bengal",
+      "zip": "316457",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7836256102",
+      "email": "contact79@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 50,
+      "vans": 27,
+      "drivers": 187
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ92VR4576",
+        "type": "Trailer",
+        "capacityInTons": 6,
+        "status": "Maintenance",
+        "driverName": "Driver_79_1"
+      },
+      {
+        "registrationNumber": "WB16IF8816",
+        "type": "Heavy Truck",
+        "capacityInTons": 19,
+        "status": "Active",
+        "driverName": "Driver_79_0"
+      }
+    ],
+    "rating": 3.7,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC079-C1",
+        "companyName": "TransportCo 79 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-7957318156",
+          "email": "branch1@transportco79pvt.ltd..in"
+        },
+        "address": {
+          "street": "23 Sub Road",
+          "city": "Bengaluru",
+          "state": "Gujarat",
+          "zip": "458543",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 27,
+          "vans": 15,
+          "drivers": 23
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ25QW7568",
+            "type": "Truck",
+            "capacityInTons": 10,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC079_4"
+          },
+          {
+            "registrationNumber": "WB92UO6822",
+            "type": "Truck",
+            "capacityInTons": 8,
+            "status": "Active",
+            "driverName": "ChildDriver_TC079_0"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC079-C2",
+        "companyName": "TransportCo 79 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-8536122921",
+          "email": "branch2@transportco79pvt.ltd..in"
+        },
+        "address": {
+          "street": "23 Sub Road",
+          "city": "Pune",
+          "state": "Maharashtra",
+          "zip": "437924",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 5,
+          "vans": 17,
+          "drivers": 14
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA67HL6997",
+            "type": "Heavy Truck",
+            "capacityInTons": 8,
+            "status": "Active",
+            "driverName": "ChildDriver_TC079_4"
+          },
+          {
+            "registrationNumber": "GJ87UB1682",
+            "type": "Truck",
+            "capacityInTons": 5,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC079_2"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC080",
+    "companyName": "TransportCo 80 Pvt. Ltd.",
+    "address": {
+      "street": "98 Main Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "zip": "363185",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7626507622",
+      "email": "contact80@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 104,
+      "vans": 38,
+      "drivers": 107
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN90EF8800",
+        "type": "Van",
+        "capacityInTons": 24,
+        "status": "Inactive",
+        "driverName": "Driver_80_0"
+      },
+      {
+        "registrationNumber": "WB71KN1483",
+        "type": "Trailer",
+        "capacityInTons": 3,
+        "status": "Maintenance",
+        "driverName": "Driver_80_0"
+      }
+    ],
+    "rating": 4.9,
+    "active": false
+  },
+  {
+    "id": "TC081",
+    "companyName": "TransportCo 81 Pvt. Ltd.",
+    "address": {
+      "street": "70 Main Road",
+      "city": "Ahmedabad",
+      "state": "Maharashtra",
+      "zip": "317033",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9719243839",
+      "email": "contact81@transportco.in"
+    },
+    "services": [
+      "Cold Chain Logistics",
+      "Freight"
+    ],
+    "fleet": {
+      "trucks": 96,
+      "vans": 22,
+      "drivers": 176
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ55CO3010",
+        "type": "Truck",
+        "capacityInTons": 17,
+        "status": "Maintenance",
+        "driverName": "Driver_81_4"
+      },
+      {
+        "registrationNumber": "KA65WC7841",
+        "type": "Van",
+        "capacityInTons": 5,
+        "status": "Inactive",
+        "driverName": "Driver_81_1"
+      }
+    ],
+    "rating": 4.7,
+    "active": false
+  },
+  {
+    "id": "TC082",
+    "companyName": "TransportCo 82 Pvt. Ltd.",
+    "address": {
+      "street": "75 Main Road",
+      "city": "Surat",
+      "state": "Telangana",
+      "zip": "496771",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9388580755",
+      "email": "contact82@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 53,
+      "vans": 24,
+      "drivers": 164
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN96CL9156",
+        "type": "Van",
+        "capacityInTons": 16,
+        "status": "Maintenance",
+        "driverName": "Driver_82_0"
+      },
+      {
+        "registrationNumber": "DL79QN5264",
+        "type": "Crane",
+        "capacityInTons": 10,
+        "status": "Maintenance",
+        "driverName": "Driver_82_1"
+      }
+    ],
+    "rating": 3.9,
+    "active": false
+  },
+  {
+    "id": "TC083",
+    "companyName": "TransportCo 83 Pvt. Ltd.",
+    "address": {
+      "street": "24 Main Road",
+      "city": "Surat",
+      "state": "Rajasthan",
+      "zip": "719666",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9868035407",
+      "email": "contact83@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 95,
+      "vans": 38,
+      "drivers": 42
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN79AP6266",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 7,
+        "status": "Active",
+        "driverName": "Driver_83_4"
+      },
+      {
+        "registrationNumber": "GJ95OX7954",
+        "type": "Heavy Truck",
+        "capacityInTons": 13,
+        "status": "Active",
+        "driverName": "Driver_83_3"
+      }
+    ],
+    "rating": 3.8,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC083-C1",
+        "companyName": "TransportCo 83 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9290699244",
+          "email": "branch1@transportco83pvt.ltd..in"
+        },
+        "address": {
+          "street": "11 Sub Road",
+          "city": "Kolkata",
+          "state": "Karnataka",
+          "zip": "407153",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 7,
+          "vans": 14,
+          "drivers": 19
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ75AL8796",
+            "type": "Heavy Truck",
+            "capacityInTons": 24,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC083_3"
+          },
+          {
+            "registrationNumber": "TN72OJ1728",
+            "type": "Van",
+            "capacityInTons": 7,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC083_4"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC084",
+    "companyName": "TransportCo 84 Pvt. Ltd.",
+    "address": {
+      "street": "49 Main Road",
+      "city": "Delhi",
+      "state": "West Bengal",
+      "zip": "525235",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9818420739",
+      "email": "contact84@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 114,
+      "vans": 26,
+      "drivers": 121
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ30JG6905",
+        "type": "Van",
+        "capacityInTons": 9,
+        "status": "Inactive",
+        "driverName": "Driver_84_2"
+      },
+      {
+        "registrationNumber": "DL32RR4047",
+        "type": "Heavy Truck",
+        "capacityInTons": 3,
+        "status": "Inactive",
+        "driverName": "Driver_84_4"
+      }
+    ],
+    "rating": 4.6,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC084-C1",
+        "companyName": "TransportCo 84 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9320326166",
+          "email": "branch1@transportco84pvt.ltd..in"
+        },
+        "address": {
+          "street": "32 Sub Road",
+          "city": "Delhi",
+          "state": "West Bengal",
+          "zip": "491431",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 19,
+          "vans": 11,
+          "drivers": 13
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA20KY8465",
+            "type": "Heavy Truck",
+            "capacityInTons": 15,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC084_4"
+          },
+          {
+            "registrationNumber": "MH98WT9798",
+            "type": "Heavy Truck",
+            "capacityInTons": 25,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC084_4"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC084-C2",
+        "companyName": "TransportCo 84 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7553814869",
+          "email": "branch2@transportco84pvt.ltd..in"
+        },
+        "address": {
+          "street": "20 Sub Road",
+          "city": "Ahmedabad",
+          "state": "West Bengal",
+          "zip": "265221",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 9,
+          "vans": 11,
+          "drivers": 10
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB70CH9026",
+            "type": "Truck",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC084_4"
+          },
+          {
+            "registrationNumber": "TN70YL4437",
+            "type": "Heavy Truck",
+            "capacityInTons": 16,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC084_1"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC085",
+    "companyName": "TransportCo 85 Pvt. Ltd.",
+    "address": {
+      "street": "20 Main Road",
+      "city": "Kolkata",
+      "state": "Delhi",
+      "zip": "679846",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7256961886",
+      "email": "contact85@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 80,
+      "vans": 51,
+      "drivers": 44
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ57UG9569",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 9,
+        "status": "Maintenance",
+        "driverName": "Driver_85_0"
+      },
+      {
+        "registrationNumber": "WB45BW3133",
+        "type": "Crane",
+        "capacityInTons": 19,
+        "status": "Maintenance",
+        "driverName": "Driver_85_3"
+      }
+    ],
+    "rating": 4.7,
+    "active": false
+  },
+  {
+    "id": "TC086",
+    "companyName": "TransportCo 86 Pvt. Ltd.",
+    "address": {
+      "street": "63 Main Road",
+      "city": "Ahmedabad",
+      "state": "Maharashtra",
+      "zip": "688778",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7648183513",
+      "email": "contact86@transportco.in"
+    },
+    "services": [
+      "Freight",
+      "Warehousing",
+      "Parcel Delivery"
+    ],
+    "fleet": {
+      "trucks": 55,
+      "vans": 32,
+      "drivers": 69
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH63JR7756",
+        "type": "Van",
+        "capacityInTons": 22,
+        "status": "Inactive",
+        "driverName": "Driver_86_2"
+      },
+      {
+        "registrationNumber": "MH56LX9606",
+        "type": "Heavy Truck",
+        "capacityInTons": 20,
+        "status": "Active",
+        "driverName": "Driver_86_0"
+      }
+    ],
+    "rating": 4.7,
+    "active": false
+  },
+  {
+    "id": "TC087",
+    "companyName": "TransportCo 87 Pvt. Ltd.",
+    "address": {
+      "street": "84 Main Road",
+      "city": "Jaipur",
+      "state": "Telangana",
+      "zip": "580755",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8856825809",
+      "email": "contact87@transportco.in"
+    },
+    "services": [
+      "Mining Transport",
+      "Bulk Material"
+    ],
+    "fleet": {
+      "trucks": 67,
+      "vans": 43,
+      "drivers": 150
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB88OV6454",
+        "type": "Trailer",
+        "capacityInTons": 13,
+        "status": "Active",
+        "driverName": "Driver_87_3"
+      },
+      {
+        "registrationNumber": "RJ33CX8582",
+        "type": "Truck",
+        "capacityInTons": 17,
+        "status": "Inactive",
+        "driverName": "Driver_87_4"
+      }
+    ],
+    "rating": 4.6,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC087-C1",
+        "companyName": "TransportCo 87 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9525486560",
+          "email": "branch1@transportco87pvt.ltd..in"
+        },
+        "address": {
+          "street": "15 Sub Road",
+          "city": "Bengaluru",
+          "state": "Delhi",
+          "zip": "424213",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 16,
+          "vans": 12,
+          "drivers": 25
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "RJ78IW6322",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 7,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC087_0"
+          },
+          {
+            "registrationNumber": "WB79PL4814",
+            "type": "Truck",
+            "capacityInTons": 8,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC087_0"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC088",
+    "companyName": "TransportCo 88 Pvt. Ltd.",
+    "address": {
+      "street": "41 Main Road",
+      "city": "Kolkata",
+      "state": "Maharashtra",
+      "zip": "665327",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9002718847",
+      "email": "contact88@transportco.in"
+    },
+    "services": [
+      "Express Delivery",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 59,
+      "vans": 74,
+      "drivers": 146
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB99HB5322",
+        "type": "Crane",
+        "capacityInTons": 13,
+        "status": "Inactive",
+        "driverName": "Driver_88_2"
+      },
+      {
+        "registrationNumber": "WB84BB3228",
+        "type": "Trailer",
+        "capacityInTons": 22,
+        "status": "Active",
+        "driverName": "Driver_88_4"
+      }
+    ],
+    "rating": 4.8,
+    "active": true
+  },
+  {
+    "id": "TC089",
+    "companyName": "TransportCo 89 Pvt. Ltd.",
+    "address": {
+      "street": "49 Main Road",
+      "city": "Kolkata",
+      "state": "Rajasthan",
+      "zip": "375431",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9775113092",
+      "email": "contact89@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 83,
+      "vans": 68,
+      "drivers": 198
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "GJ58DF7106",
+        "type": "Truck",
+        "capacityInTons": 6,
+        "status": "Inactive",
+        "driverName": "Driver_89_1"
+      },
+      {
+        "registrationNumber": "KA89DC2187",
+        "type": "Van",
+        "capacityInTons": 24,
+        "status": "Inactive",
+        "driverName": "Driver_89_4"
+      }
+    ],
+    "rating": 3.9,
+    "active": true
+  },
+  {
+    "id": "TC090",
+    "companyName": "TransportCo 90 Pvt. Ltd.",
+    "address": {
+      "street": "82 Main Road",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zip": "732182",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7446302598",
+      "email": "contact90@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 60,
+      "vans": 45,
+      "drivers": 188
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "MH62OT7792",
+        "type": "Refrigerated Truck",
+        "capacityInTons": 5,
+        "status": "Maintenance",
+        "driverName": "Driver_90_4"
+      },
+      {
+        "registrationNumber": "DL48DR4135",
+        "type": "Trailer",
+        "capacityInTons": 6,
+        "status": "Maintenance",
+        "driverName": "Driver_90_0"
+      }
+    ],
+    "rating": 3.8,
+    "active": false
+  },
+  {
+    "id": "TC091",
+    "companyName": "TransportCo 91 Pvt. Ltd.",
+    "address": {
+      "street": "11 Main Road",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zip": "869452",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9225700959",
+      "email": "contact91@transportco.in"
+    },
+    "services": [
+      "Rail Logistics",
+      "Multimodal Freight"
+    ],
+    "fleet": {
+      "trucks": 104,
+      "vans": 63,
+      "drivers": 133
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "WB71QJ1569",
+        "type": "Van",
+        "capacityInTons": 14,
+        "status": "Active",
+        "driverName": "Driver_91_4"
+      },
+      {
+        "registrationNumber": "WB55LR7362",
+        "type": "Trailer",
+        "capacityInTons": 25,
+        "status": "Maintenance",
+        "driverName": "Driver_91_3"
+      }
+    ],
+    "rating": 4.2,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC091-C1",
+        "companyName": "TransportCo 91 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8891666770",
+          "email": "branch1@transportco91pvt.ltd..in"
+        },
+        "address": {
+          "street": "40 Sub Road",
+          "city": "Mumbai",
+          "state": "Delhi",
+          "zip": "804396",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 25,
+          "vans": 18,
+          "drivers": 14
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA97YK4013",
+            "type": "Heavy Truck",
+            "capacityInTons": 14,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC091_2"
+          },
+          {
+            "registrationNumber": "KA72IR1990",
+            "type": "Van",
+            "capacityInTons": 4,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC091_2"
+          }
+        ],
+        "active": false
+      },
+      {
+        "id": "TC091-C2",
+        "companyName": "TransportCo 91 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7395613423",
+          "email": "branch2@transportco91pvt.ltd..in"
+        },
+        "address": {
+          "street": "34 Sub Road",
+          "city": "Mumbai",
+          "state": "Tamil Nadu",
+          "zip": "386656",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 9,
+          "vans": 3,
+          "drivers": 9
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ20ER3358",
+            "type": "Crane",
+            "capacityInTons": 5,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC091_0"
+          },
+          {
+            "registrationNumber": "KA10YI3719",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 6,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC091_2"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC092",
+    "companyName": "TransportCo 92 Pvt. Ltd.",
+    "address": {
+      "street": "6 Main Road",
+      "city": "Chennai",
+      "state": "Telangana",
+      "zip": "561246",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8335227650",
+      "email": "contact92@transportco.in"
+    },
+    "services": [
+      "Overnight Shipping",
+      "E-commerce Fulfillment"
+    ],
+    "fleet": {
+      "trucks": 122,
+      "vans": 75,
+      "drivers": 109
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN64RX9546",
+        "type": "Truck",
+        "capacityInTons": 2,
+        "status": "Maintenance",
+        "driverName": "Driver_92_3"
+      },
+      {
+        "registrationNumber": "WB68GU6490",
+        "type": "Crane",
+        "capacityInTons": 3,
+        "status": "Inactive",
+        "driverName": "Driver_92_1"
+      }
+    ],
+    "rating": 3.5,
+    "active": true
+  },
+  {
+    "id": "TC093",
+    "companyName": "TransportCo 93 Pvt. Ltd.",
+    "address": {
+      "street": "29 Main Road",
+      "city": "Delhi",
+      "state": "Maharashtra",
+      "zip": "867160",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9458038123",
+      "email": "contact93@transportco.in"
+    },
+    "services": [
+      "Cold Chain Logistics",
+      "Freight"
+    ],
+    "fleet": {
+      "trucks": 53,
+      "vans": 48,
+      "drivers": 82
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA58UJ1693",
+        "type": "Crane",
+        "capacityInTons": 13,
+        "status": "Active",
+        "driverName": "Driver_93_2"
+      },
+      {
+        "registrationNumber": "TN95CS5150",
+        "type": "Truck",
+        "capacityInTons": 20,
+        "status": "Inactive",
+        "driverName": "Driver_93_3"
+      }
+    ],
+    "rating": 4.0,
+    "active": false
+  },
+  {
+    "id": "TC094",
+    "companyName": "TransportCo 94 Pvt. Ltd.",
+    "address": {
+      "street": "88 Main Road",
+      "city": "Hyderabad",
+      "state": "Rajasthan",
+      "zip": "881538",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7018258023",
+      "email": "contact94@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 55,
+      "vans": 78,
+      "drivers": 94
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN23QA3046",
+        "type": "Van",
+        "capacityInTons": 6,
+        "status": "Active",
+        "driverName": "Driver_94_3"
+      },
+      {
+        "registrationNumber": "TN14LO6029",
+        "type": "Truck",
+        "capacityInTons": 4,
+        "status": "Maintenance",
+        "driverName": "Driver_94_4"
+      }
+    ],
+    "rating": 4.6,
+    "active": true
+  },
+  {
+    "id": "TC095",
+    "companyName": "TransportCo 95 Pvt. Ltd.",
+    "address": {
+      "street": "38 Main Road",
+      "city": "Bengaluru",
+      "state": "Telangana",
+      "zip": "178936",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7912184137",
+      "email": "contact95@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 133,
+      "vans": 48,
+      "drivers": 126
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA56RL1772",
+        "type": "Van",
+        "capacityInTons": 2,
+        "status": "Inactive",
+        "driverName": "Driver_95_2"
+      },
+      {
+        "registrationNumber": "TN17DG5842",
+        "type": "Truck",
+        "capacityInTons": 13,
+        "status": "Maintenance",
+        "driverName": "Driver_95_2"
+      }
+    ],
+    "rating": 4.3,
+    "active": false
+  },
+  {
+    "id": "TC096",
+    "companyName": "TransportCo 96 Pvt. Ltd.",
+    "address": {
+      "street": "82 Main Road",
+      "city": "Hyderabad",
+      "state": "Gujarat",
+      "zip": "506938",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7770134362",
+      "email": "contact96@transportco.in"
+    },
+    "services": [
+      "Sea Cargo",
+      "Port Handling"
+    ],
+    "fleet": {
+      "trucks": 21,
+      "vans": 31,
+      "drivers": 111
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ12OK3245",
+        "type": "Van",
+        "capacityInTons": 2,
+        "status": "Maintenance",
+        "driverName": "Driver_96_2"
+      },
+      {
+        "registrationNumber": "WB47YW6246",
+        "type": "Heavy Truck",
+        "capacityInTons": 11,
+        "status": "Maintenance",
+        "driverName": "Driver_96_0"
+      }
+    ],
+    "rating": 4.6,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC096-C1",
+        "companyName": "TransportCo 96 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-8437868609",
+          "email": "branch1@transportco96pvt.ltd..in"
+        },
+        "address": {
+          "street": "50 Sub Road",
+          "city": "Surat",
+          "state": "Tamil Nadu",
+          "zip": "183278",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 29,
+          "vans": 20,
+          "drivers": 24
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "GJ34RU3076",
+            "type": "Crane",
+            "capacityInTons": 7,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC096_2"
+          },
+          {
+            "registrationNumber": "MH47WO3674",
+            "type": "Truck",
+            "capacityInTons": 22,
+            "status": "Active",
+            "driverName": "ChildDriver_TC096_4"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  {
+    "id": "TC097",
+    "companyName": "TransportCo 97 Pvt. Ltd.",
+    "address": {
+      "street": "25 Main Road",
+      "city": "Pune",
+      "state": "Telangana",
+      "zip": "739585",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-7787809524",
+      "email": "contact97@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 111,
+      "vans": 36,
+      "drivers": 155
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "RJ65NA4884",
+        "type": "Trailer",
+        "capacityInTons": 15,
+        "status": "Active",
+        "driverName": "Driver_97_0"
+      },
+      {
+        "registrationNumber": "WB61KT1582",
+        "type": "Truck",
+        "capacityInTons": 15,
+        "status": "Active",
+        "driverName": "Driver_97_3"
+      }
+    ],
+    "rating": 4.0,
+    "active": false
+  },
+  {
+    "id": "TC098",
+    "companyName": "TransportCo 98 Pvt. Ltd.",
+    "address": {
+      "street": "43 Main Road",
+      "city": "Hyderabad",
+      "state": "Tamil Nadu",
+      "zip": "692901",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9572681556",
+      "email": "contact98@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 72,
+      "vans": 75,
+      "drivers": 76
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "KA91YG5188",
+        "type": "Trailer",
+        "capacityInTons": 4,
+        "status": "Maintenance",
+        "driverName": "Driver_98_3"
+      },
+      {
+        "registrationNumber": "RJ56RP4552",
+        "type": "Trailer",
+        "capacityInTons": 6,
+        "status": "Active",
+        "driverName": "Driver_98_2"
+      }
+    ],
+    "rating": 4.6,
+    "active": false,
+    "childTransporters": [
+      {
+        "id": "TC098-C1",
+        "companyName": "TransportCo 98 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9465333870",
+          "email": "branch1@transportco98pvt.ltd..in"
+        },
+        "address": {
+          "street": "49 Sub Road",
+          "city": "Jaipur",
+          "state": "Maharashtra",
+          "zip": "486653",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 10,
+          "vans": 10,
+          "drivers": 9
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "KA49TZ1804",
+            "type": "Van",
+            "capacityInTons": 19,
+            "status": "Inactive",
+            "driverName": "ChildDriver_TC098_3"
+          },
+          {
+            "registrationNumber": "GJ61JO8549",
+            "type": "Crane",
+            "capacityInTons": 10,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC098_3"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC098-C2",
+        "companyName": "TransportCo 98 Pvt. Ltd. Branch 2",
+        "contact": {
+          "phone": "+91-7527868643",
+          "email": "branch2@transportco98pvt.ltd..in"
+        },
+        "address": {
+          "street": "14 Sub Road",
+          "city": "Kolkata",
+          "state": "Rajasthan",
+          "zip": "452080",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 15,
+          "vans": 7,
+          "drivers": 5
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB51ER5512",
+            "type": "Trailer",
+            "capacityInTons": 18,
+            "status": "Active",
+            "driverName": "ChildDriver_TC098_2"
+          },
+          {
+            "registrationNumber": "WB35PV2705",
+            "type": "Trailer",
+            "capacityInTons": 25,
+            "status": "Active",
+            "driverName": "ChildDriver_TC098_0"
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "TC098-C3",
+        "companyName": "TransportCo 98 Pvt. Ltd. Branch 3",
+        "contact": {
+          "phone": "+91-9103053896",
+          "email": "branch3@transportco98pvt.ltd..in"
+        },
+        "address": {
+          "street": "30 Sub Road",
+          "city": "Jaipur",
+          "state": "Karnataka",
+          "zip": "438203",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 8,
+          "vans": 7,
+          "drivers": 21
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "WB60PR9492",
+            "type": "Crane",
+            "capacityInTons": 25,
+            "status": "Active",
+            "driverName": "ChildDriver_TC098_1"
+          },
+          {
+            "registrationNumber": "RJ88GF4474",
+            "type": "Refrigerated Truck",
+            "capacityInTons": 22,
+            "status": "Active",
+            "driverName": "ChildDriver_TC098_4"
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": "TC099",
+    "companyName": "TransportCo 99 Pvt. Ltd.",
+    "address": {
+      "street": "31 Main Road",
+      "city": "Chennai",
+      "state": "Gujarat",
+      "zip": "934847",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-8758843655",
+      "email": "contact99@transportco.in"
+    },
+    "services": [
+      "Industrial Shipping",
+      "Courier"
+    ],
+    "fleet": {
+      "trucks": 108,
+      "vans": 50,
+      "drivers": 59
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "TN85TX7535",
+        "type": "Trailer",
+        "capacityInTons": 20,
+        "status": "Maintenance",
+        "driverName": "Driver_99_2"
+      },
+      {
+        "registrationNumber": "GJ59GX9717",
+        "type": "Heavy Truck",
+        "capacityInTons": 12,
+        "status": "Maintenance",
+        "driverName": "Driver_99_1"
+      }
+    ],
+    "rating": 3.6,
+    "active": true
+  },
+  {
+    "id": "TC100",
+    "companyName": "TransportCo 100 Pvt. Ltd.",
+    "address": {
+      "street": "3 Main Road",
+      "city": "Pune",
+      "state": "Tamil Nadu",
+      "zip": "130470",
+      "country": "India"
+    },
+    "contact": {
+      "phone": "+91-9436079685",
+      "email": "contact100@transportco.in"
+    },
+    "services": [
+      "Urban Delivery",
+      "Fleet Leasing"
+    ],
+    "fleet": {
+      "trucks": 74,
+      "vans": 53,
+      "drivers": 69
+    },
+    "vehicleDetails": [
+      {
+        "registrationNumber": "DL18DX7349",
+        "type": "Van",
+        "capacityInTons": 8,
+        "status": "Maintenance",
+        "driverName": "Driver_100_1"
+      },
+      {
+        "registrationNumber": "WB46JZ2695",
+        "type": "Trailer",
+        "capacityInTons": 7,
+        "status": "Maintenance",
+        "driverName": "Driver_100_1"
+      }
+    ],
+    "rating": 4.7,
+    "active": true,
+    "childTransporters": [
+      {
+        "id": "TC100-C1",
+        "companyName": "TransportCo 100 Pvt. Ltd. Branch 1",
+        "contact": {
+          "phone": "+91-9920796939",
+          "email": "branch1@transportco100pvt.ltd..in"
+        },
+        "address": {
+          "street": "14 Sub Road",
+          "city": "Ahmedabad",
+          "state": "Telangana",
+          "zip": "811824",
+          "country": "India"
+        },
+        "fleet": {
+          "trucks": 10,
+          "vans": 18,
+          "drivers": 20
+        },
+        "vehicleDetails": [
+          {
+            "registrationNumber": "TN33SA4795",
+            "type": "Crane",
+            "capacityInTons": 9,
+            "status": "Active",
+            "driverName": "ChildDriver_TC100_0"
+          },
+          {
+            "registrationNumber": "KA31QU7828",
+            "type": "Trailer",
+            "capacityInTons": 18,
+            "status": "Maintenance",
+            "driverName": "ChildDriver_TC100_3"
+          }
+        ],
+        "active": false
+      }
+    ]
+  }
+]
