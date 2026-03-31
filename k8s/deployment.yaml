@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: intellifleet-ui-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: intellifleet-ui-app
+  template:
+    metadata:
+      labels:
+        app: intellifleet-ui-app
+    spec:
+      containers:
+        - name: intellifleet-ui-app
+          image: intellifleet-ui-image:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5173

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: intellifleet-ui-service
+spec:
+  selector:
+    app: intellifleet-ui-app
+  type: NodePort
+  ports:
+    - port: 5173
+      targetPort: 5173
+      nodePort: 30080
