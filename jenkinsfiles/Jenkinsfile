@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NPM_PATH = '/root/.nvm/versions/node/v16.20.2/bin/npm'
+        PATH = '/root/.nvm/versions/node/v16.20.2/bin:/usr/local/bin:/usr/bin:/bin:${env.PATH}'
         REPO_URL = 'https://github.com/intfleet/intellifleet-ui'
         BRANCH = 'feature/dev-01'
 
@@ -28,13 +28,13 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh '${NPM_PATH} install'
+                sh 'npm install'
             }
         }
 
         stage('Build React App') {
             steps {
-                sh '${NPM_PATH} run build'
+                sh 'npm run build'
             }
         }
 
