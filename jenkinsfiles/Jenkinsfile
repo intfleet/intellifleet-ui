@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH = 'PATH=/opt/intellifleet/software/nodejs/24/bin:$PATH'
+        PATH = '/opt/intellifleet/software/nodejs/24/bin:$PATH'
         REPO_URL = 'https://github.com/intfleet/intellifleet-ui'
         BRANCH = 'feature/dev-01'
 
