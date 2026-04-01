@@ -28,7 +28,10 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                sh 'kubectl exec -i node-latest-pod -- npm install'
+                sh '''
+                kubectl get pod
+                kubectl exec -i node-latest-pod -- npm install
+                '''
             }
         }
 
