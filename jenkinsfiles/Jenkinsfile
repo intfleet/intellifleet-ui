@@ -52,13 +52,20 @@ pipeline {
 
         stage('Save Docker Image') {
             steps {
-                sh 'docker save ${IMAGE_NAME}:${IMAGE_TAG} -o k8s/${TAR_FILE}'
+                sh '''
+                echo "Save Docker Image"
+                docker save $IMAGE_NAME:latest -o k8s/${TAR_FILE}
+                ls -l k8s/${TAR_FILE}
+                '''
             }
         }
 
         stage('Import to containerd') {
             steps {
-                sh 'ctr -n k8s.io images import k8s/${TAR_FILE}'
+                '''
+                echo "Import Docker Image to containerd"
+                ctr -n k8s.io images import k8s/${TAR_FILE}
+                '''
             }
         }
 
