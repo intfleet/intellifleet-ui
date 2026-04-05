@@ -32,8 +32,8 @@ pipeline {
                 docker run --rm \
                 -v $WORKSPACE:/app \
                 -w /app \
-                node:22 \
-                sh -c "npm install && npm run build" 
+                node:24 \
+                sh -c "npm install --force && npm run build" 
                 ''' 
             } 
         }
