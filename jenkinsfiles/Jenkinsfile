@@ -32,8 +32,8 @@ pipeline {
                 docker run --rm \
                 -v $WORKSPACE:/app \
                 -w /app \
-                node:24 \
-                sh -c "npm install --force && npm run build" 
+                node:20 \
+                sh -c "npm install --legacy-peer-deps && npm run build" 
                 ''' 
             } 
         }
