@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: intellifleet-ui-app
-          image: intellifleet-ui-image:${BUILD_NUMBER}
+          image: docker.io/library/intellifleet-ui-image:${BUILD_NUMBER}
           imagePullPolicy: Never
           ports:
             - containerPort: 8090
