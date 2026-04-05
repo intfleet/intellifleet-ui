@@ -62,7 +62,7 @@ pipeline {
 
         stage('Import to containerd') {
             steps {
-                '''
+                sh '''
                 echo "Import Docker Image to containerd"
                 ctr -n k8s.io images import k8s/${TAR_FILE}
                 '''
