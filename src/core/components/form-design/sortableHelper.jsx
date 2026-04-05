@@ -1,5 +1,5 @@
 import Sortable from 'sortablejs';
-import UtilityUtils from '../../utils/Utility.utils';
+import UtilityUtils from '../../utils/utilityUtils';
 
 
 const SortableHelper = {

@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Typography, styled } from "@mui/material";
 import React from "react";
-import UtilityUtils from "../../utils/Utility.utils";
+import UtilityUtils from "../../utils/utilityUtils";
 import AddIcon from '@mui/icons-material/Add';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';

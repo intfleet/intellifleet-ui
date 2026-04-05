@@ -7,7 +7,7 @@ import { Button } from "../buttons";
 import { AppContext } from "../../context/appContext";
 import AddIcon from '@mui/icons-material/Add';
 import FormContainer from "./FormContainer";
-import UtilityUtils from "../../utils/Utility.utils";
+import UtilityUtils from "../../utils/utilityUtils";
 import formDesignConstants from "./formDesignConstants";
 import AxiosApi from '../../../utils/httpRequestHandler';
 import APIConstants from '../../../constants/apiConatants';
