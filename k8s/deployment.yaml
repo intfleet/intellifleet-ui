@@ -17,4 +17,4 @@ spec:
           image: intellifleet-ui-image:latest
           imagePullPolicy: Never
           ports:
-            - containerPort: 5173
+            - containerPort: 8090

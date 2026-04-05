@@ -7,6 +7,6 @@ spec:
     app: intellifleet-ui-app
   type: NodePort
   ports:
-    - port: 5173
-      targetPort: 5173
-      nodePort: 30080
+    - port: 8090
+      targetPort: 8090
+      nodePort: 30090
