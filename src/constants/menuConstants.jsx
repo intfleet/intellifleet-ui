@@ -18,6 +18,7 @@ import FormGeneratorContainer from '../core/components/form-generator/FormGenera
 import CustomerContainer from '../components/CustomerContainer';
 import FormListViewContainer from '../components/FormListViewContainer';
 import QueryBuilderComponent from '../components/QueryBuilderComponent';
+import AssetPositionContainer from '../components/AssetPositionContainer';
 
 
 const MENU_LIST = [
@@ -114,7 +115,7 @@ const MENU_LIST = [
                 label: CONSTANSTS.OBJECTS_LABEL[CONSTANSTS.OBJECTS.MAP_ASSET_POSITION], 
                 icon: <RoomIcon fontSize={'inherit'} style={{height: 'auto'}}/>,
                 url: "/"+CONSTANSTS.OBJECTS.MAP_ASSET_POSITION.toLocaleLowerCase(),
-                element: <div>List View</div>,
+                element: <AssetPositionContainer />,
                 isHidden: false,
             },
             {

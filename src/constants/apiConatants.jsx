@@ -31,6 +31,9 @@ const APIConstants =  {
     RECORD_POST: "/api/record",
 
 
+    GPS_DATA_GET: "/api/gps-data",
+
+
 
 
     DASHBOARD_MONTHLY_APPROVAL_LEAVES_GET:"/api/dashboard/leaves/approved/get",
